@@ -44,6 +44,8 @@ mini-site/
 │   ├── data.ts            # Nav links, FAQs, pricing, copy (not all used on current page)
 │   └── mockFleetData.ts   # In-memory mock data for analytics demos
 ├── DOCUMENTATION.md       # This file
+├── RENDER.md              # Deploy on Render.com
+├── render.yaml            # Render Blueprint (optional)
 └── SECURITY.md            # Security and safety notes
 ```
 
@@ -91,6 +93,17 @@ mini-site/
 | `npm run build` | Production build |
 | `npm run start` | Run production server |
 | `npm run lint` | Run ESLint |
+
+---
+
+## Deploy on Render.com
+
+The app is set up for a **Static Site** on [Render](https://render.com) (no Node server, no cold starts):
+
+- **Build:** `npm install && npm run build`
+- **Publish directory:** `out` (from Next.js `output: 'export'`)
+
+See **[RENDER.md](./RENDER.md)** for step-by-step instructions.
 
 ---
 

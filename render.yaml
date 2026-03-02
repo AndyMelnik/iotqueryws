@@ -1,0 +1,10 @@
+# Render Blueprint — deploy as Static Site (recommended for this app)
+# https://docs.render.com/static-sites
+services:
+  - type: web
+    name: iot-query-website
+    runtime: static
+    region: oregon
+
+    buildCommand: npm install && npm run build
+    staticPublishPath: out
