@@ -11,6 +11,18 @@ const TransformFrame         = dynamic(() => import("@/components/analytics/Tran
 const AIChatFrame            = dynamic(() => import("@/components/analytics/AIChatFrame"), { ssr: false, loading: () => <FrameLoader /> });
 const ForecastFrame          = dynamic(() => import("@/components/analytics/ForecastFrame"), { ssr: false, loading: () => <FrameLoader /> });
 
+/** Renders text with **bold** segments for fleet-manager–relevant terms. */
+function renderUspWithBold(text: string): React.ReactNode {
+  const parts = text.split(/(\*\*.+?\*\*)/g);
+  return parts.map((part, i) =>
+    part.startsWith("**") && part.endsWith("**") ? (
+      <strong key={i} className="font-semibold" style={{ color: "rgba(224,234,255,0.9)" }}>{part.slice(2, -2)}</strong>
+    ) : (
+      part
+    )
+  );
+}
+
 function FrameLoader() {
   return (
     <div className="flex items-center justify-center py-20">
@@ -38,17 +50,17 @@ const SECTIONS: SectionDef[] = [
   {
     id: "analytics-dashboard",
     eyebrow: "Realtime Dashboards",
-    title: "Live KPIs and charts from your telematics data.",
+    title: "Live KPIs and charts from your telematics data",
     description:
       "Filter by vehicle, driver, or time range. Dashboards update in real time — every metric is a direct SQL query. No exports, no waiting.",
     accent: "#b300ff",
     icon: <BarChart2 size={18} />,
     usps: [
-      "Analyze your fleet data from different perspectives — vehicle, driver, department, depot, etc",
-      "Track operational performance in real time — trips, vehicle statuses, idle time, shift activity, and route progress",
-      "Monitor sensor data and operational conditions — temperature, humidity, cargo status, engine RPM",
-      "Measure operational costs and efficiency metrics - cost per kilometer, trip, or driver",
-      "Identify operational delays and bottlenecks — loading time, idling time, route deviations",
+      "Analyze your **fleet data** from different perspectives — **vehicle**, **driver**, department, depot, etc.",
+      "Track **operational performance** in **real time** — **trips**, **vehicle statuses**, **idle time**, shift activity, and route progress.",
+      "Monitor **sensor data** and operational conditions — temperature, humidity, cargo status, engine RPM.",
+      "Measure **operational costs** and **efficiency metrics** — **cost per kilometer**, trip, or driver.",
+      "Identify **operational delays** and **bottlenecks** — loading time, idling time, route deviations.",
     ],
     component: DashboardFrame,
     flip: false,
@@ -56,17 +68,17 @@ const SECTIONS: SectionDef[] = [
   {
     id: "analytics-compliance",
     eyebrow: "Custom Reporting",
-    title: "Risk, compliance, and regulatory — built for your rules.",
+    title: "Risk, compliance, and regulatory — built for your rules",
     description:
       "Build reports for driver risk, fatigue, and regulatory compliance. Example: EU tachograph rules (Reg. 165/2014) for driving and rest hours and your own policies.",
     accent: "#ff3366",
     icon: <FileCheck size={18} />,
     usps: [
-      "Generate reports based on your operational structure — by vehicle, driver, department, depot, route, or customer contract",
-      "Create compliance reports for regulatory requirements - driver working hours, tachograph (Tacho) data",
-      "Produce automated reports for fleet performance - trips completed, utilization rates, idle time, and operational productivity",
-      "Produce customer-facing reports for contracts and SLAs - delivery performance, service reliability, and operational compliance",
-      "Export reports for internal and external stakeholders such as management, regulators, insurance providers, or logistics partners",
+      "Generate reports based on your operational structure — by **vehicle**, **driver**, department, depot, route, or **customer contract**.",
+      "Create **compliance** reports for **regulatory** requirements — **driver working hours**, **tachograph (Tacho)** data.",
+      "Produce automated reports for **fleet performance** — **trips completed**, **utilization rates**, **idle time**, and operational productivity.",
+      "Produce customer-facing reports for **contracts** and **SLAs** — delivery performance, service reliability, and operational compliance.",
+      "Export reports for **management**, regulators, insurance providers, or logistics partners.",
     ],
     component: ComplianceReportingFrame,
     flip: true,
@@ -74,17 +86,17 @@ const SECTIONS: SectionDef[] = [
   {
     id: "analytics-transform",
     eyebrow: "Data Transformation & Aggregation",
-    title: "Custom states and statuses that match how you work.",
+    title: "Custom states and statuses that match how you work",
     description:
       "Define and aggregate custom statuses — e.g. drilling, loading goods, on trip — from raw telemetry. Roll up by time window, vehicle, or driver for dashboards and models.",
     accent: "#00f0ff",
     icon: <RefreshCw size={18} />,
     usps: [
-      "Create meaningful operational states - trips started, loading in progress, vehicle idle",
-      "Work with your custom-created events — what happened at a point in time (e.g. an accident)",
-      "Combine multiple data signals into one business status — i.e GPS stop + door sensor + time window = Dwelling - warehouse loading event",
-      "Aggregate vehicle activity into operational views - trips per day, active vehicles per depot, or fleet utilization by department",
-      "Standardize operational data across multiple fleets or customers so dashboards and reports can compare performance consistently",
+      "Create meaningful **operational states** — **trips** started, loading in progress, **vehicle idle**.",
+      "Work with your **custom-created events** — what happened at a point in time (e.g. an accident).",
+      "Combine multiple data signals into one **business status** — e.g. GPS stop + door sensor + time window = dwelling, warehouse loading event.",
+      "Aggregate **vehicle activity** into operational views — **trips per day**, **active vehicles** per depot, or **fleet utilization** by department.",
+      "Standardize operational data across **multiple fleets** or customers so dashboards and reports compare **performance** consistently.",
     ],
     component: TransformFrame,
     flip: false,
@@ -98,11 +110,11 @@ const SECTIONS: SectionDef[] = [
     accent: "#b300ff",
     icon: <MessageSquare size={18} />,
     usps: [
-      "Create AI assistants that analyze operational data automatically and highlight inefficiencies in routes, fuel usage, or vehicle utilization",
-      "Enable AI agents to trigger workflows automatically such as scheduling maintenance tasks, notifying managers about risks, or generating reports",
-      "Generate automated operational summaries showing daily fleet performance, driver activity, and operational efficiency",
-      "Provide instant explanations for operational changes such as increases in fuel costs, delays in deliveries, or drops in vehicle utilization",
-      "Automate and digitize your workflows with AI-based tools and resources — notifications, reports, and more",
+      "Create AI assistants that analyze **operational data** and highlight inefficiencies in **routes**, **fuel usage**, or **vehicle utilization**.",
+      "Enable AI agents to trigger **workflows** — e.g. scheduling **maintenance** tasks, notifying **managers** about risks, or generating reports.",
+      "Generate automated **operational summaries** — daily **fleet performance**, **driver activity**, and operational efficiency.",
+      "Provide instant explanations for operational changes — **fuel costs**, **delays** in deliveries, or drops in **vehicle utilization**.",
+      "Automate and digitize your **workflows** with AI-based tools — notifications, reports, and more.",
     ],
     component: AIChatFrame,
     flip: true,
@@ -110,17 +122,17 @@ const SECTIONS: SectionDef[] = [
   {
     id: "analytics-forecast",
     eyebrow: "Data Modeling",
-    title: "ML and forecasting on unified telematics.",
+    title: "ML and forecasting on unified telematics",
     description:
       "Combine data modeling with ML and forecasting: predict costs, fuel, and utilization from your unified dataset. Historical + forecast views with confidence intervals.",
     accent: "#00f0ff",
     icon: <TrendingUp size={18} />,
     usps: [
-      "Model operational costs across your fleet — estimate cost per vehicle, route, trip, or depot based on real usage patterns",
-      "Predict vehicle availability and fleet capacity to plan upcoming deliveries, shifts, or seasonal demand",
-      "Identify unusual patterns and operational anomalies such as sudden fuel spikes, abnormal idle time, or unexpected downtime",
-      "Forecast maintenance needs based on vehicle usage including mileage, operating hours, and engine performance trends",
-      "Support strategic planning with predictive insights such as expected fleet demand, fuel budgets, and maintenance scheduling"
+      "Model **operational costs** across your **fleet** — **cost per vehicle**, route, **trip**, or depot based on real usage patterns.",
+      "Predict **vehicle availability** and **fleet capacity** to plan upcoming **deliveries**, shifts, or seasonal demand.",
+      "Identify **unusual patterns** and **operational anomalies** — sudden **fuel** spikes, abnormal **idle time**, or unexpected **downtime**.",
+      "Forecast **maintenance** needs based on **vehicle usage** — mileage, **operating hours**, and engine performance trends.",
+      "Support **strategic planning** with **predictive insights** — **fleet demand**, **fuel budgets**, and **maintenance scheduling**.",
     ],
     component: ForecastFrame,
     flip: false,
@@ -213,10 +225,36 @@ export default function AnalyticsHub() {
                     {sec.usps.map((usp) => (
                       <li key={usp} className="flex items-center gap-2.5">
                         <CheckCircle2 size={14} style={{ color: sec.accent }} className="shrink-0" />
-                        <span className="text-sm" style={{ color: "rgba(224,234,255,0.65)" }}>{usp}</span>
+                        <span className="text-sm" style={{ color: "rgba(224,234,255,0.65)" }}>{renderUspWithBold(usp)}</span>
                       </li>
                     ))}
                   </ul>
+
+                  {/* Local CTAs */}
+                  <div className="flex flex-wrap gap-3 pt-2">
+                    <a
+                      href="#capabilities"
+                      className="text-xs px-3 py-1.5 rounded-full font-medium transition-all duration-200"
+                      style={{
+                        background: "rgba(100,150,255,0.06)",
+                        border: "1px solid rgba(100,150,255,0.25)",
+                        color: "rgba(224,234,255,0.8)",
+                      }}
+                    >
+                      ← Back to Capabilities
+                    </a>
+                    <a
+                      href="#cta"
+                      className="text-xs px-3 py-1.5 rounded-full font-semibold transition-all duration-200"
+                      style={{
+                        background: `linear-gradient(135deg, ${sec.accent}, #00f0ff)`,
+                        color: "#050a22",
+                        boxShadow: "0 0 18px rgba(179,0,255,0.35)",
+                      }}
+                    >
+                      Want the same? Get my plan
+                    </a>
+                  </div>
 
                 </motion.div>
 

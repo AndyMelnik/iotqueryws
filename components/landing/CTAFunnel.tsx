@@ -111,13 +111,11 @@ function StepBar({ step, total }: { step: number; total: number }) {
 function BigCard({
   icon,
   label,
-  sub,
   selected,
   onClick,
 }: {
   icon: React.ReactNode;
   label: string;
-  sub?: string;
   selected: boolean;
   onClick: () => void;
 }) {
@@ -131,11 +129,11 @@ function BigCard({
       onClick={onClick}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="w-full text-left p-5 rounded-[1.75rem] flex items-start gap-4 transition-all duration-200"
+      className="w-full p-3 rounded-xl flex items-center gap-3 transition-all duration-200"
       style={style}
     >
       <div
-        className="w-11 h-11 rounded-2xl flex items-center justify-center shrink-0 mt-0.5 transition-all duration-200"
+        className="w-9 h-9 rounded-xl flex items-center justify-center shrink-0 transition-all duration-200"
         style={
           selected
             ? { background: "rgba(179,0,255,0.2)", border: "1px solid rgba(179,0,255,0.4)" }
@@ -148,21 +146,16 @@ function BigCard({
           {icon}
         </span>
       </div>
-      <div className="flex-1 min-w-0">
+      <div className="flex-1 min-w-0 text-left">
         <div
           className="text-sm font-bold leading-snug"
           style={{ color: selected ? "#e0eaff" : hovered ? "#e0eaff" : "rgba(224,234,255,0.75)" }}
         >
           {label}
         </div>
-        {sub && (
-          <div className="text-[11px] mt-0.5 leading-tight" style={{ color: "rgba(224,234,255,0.4)" }}>
-            {sub}
-          </div>
-        )}
       </div>
       <div
-        className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 mt-0.5 transition-all duration-200"
+        className="w-5 h-5 rounded-full flex items-center justify-center shrink-0 transition-all duration-200"
         style={
           selected
             ? { background: "rgba(179,0,255,0.3)", border: "1px solid rgba(179,0,255,0.5)" }
@@ -339,25 +332,24 @@ export default function CTAFunnel() {
                 <motion.div key="step1" custom={dir} variants={slideVariants} initial="enter" animate="center" exit="exit">
                   <div className="mb-6">
                     <h3 className="text-xl font-bold tracking-tight mb-1" style={{ color: "#e0eaff" }}>
-                      What do you want to prove with your fleet data?
+                      Choose who is going to operate with data
                     </h3>
                     <p className="text-sm" style={{ color: "rgba(224,234,255,0.45)" }}>
-                      Pick one or more — we&apos;ll show you the analytics that gets you there.
+                      Pick one or more — we&apos;ll show you the right setup.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-3 mb-8">
+                  <div className="flex flex-col gap-2 mb-8">
                     {[
-                      { label: "Build custom dashboards for operational efficiency", sub: "Real-time dashboards: trips, vehicle status, utilization, idle time, fleet performance.", icon: <LayoutDashboard size={18} /> },
-                      { label: "Generate custom reports for compliance and control", sub: "Automated reports for regulations, driver behavior, tachograph, compliance.", icon: <FileText size={18} /> },
-                      { label: "Transform and model data for forecasting and optimization", sub: "Aggregate & enrich telematics for cost, fuel, anomaly, forecasts.", icon: <LineChart size={18} /> },
-                      { label: "Use your fleet data to power AI tools and assistants", sub: "AI agents that analyze operations, answer questions, automate insights.", icon: <Bot size={18} /> },
-                      { label: "Offer advanced analytics as a service to your customers", sub: "Resell dashboards, reporting, intelligence as value-added services.", icon: <Rocket size={18} /> },
+                      { label: "Build custom dashboards for operational efficiency", icon: <LayoutDashboard size={18} /> },
+                      { label: "Generate custom reports for compliance and control", icon: <FileText size={18} /> },
+                      { label: "Transform and model data for forecasting and optimization", icon: <LineChart size={18} /> },
+                      { label: "Use your fleet data to power AI tools and assistants", icon: <Bot size={18} /> },
+                      { label: "Offer advanced analytics as a service to your customers", icon: <Rocket size={18} /> },
                     ].map((opt) => (
                       <BigCard
                         key={opt.label}
                         icon={opt.icon}
                         label={opt.label}
-                        sub={opt.sub}
                         selected={funnel.outcomeGoal.includes(opt.label)}
                         onClick={() => toggleGoal(opt.label)}
                       />
@@ -365,7 +357,7 @@ export default function CTAFunnel() {
                   </div>
                   <div className="flex justify-end">
                     <button type="button" className="neon-btn flex items-center gap-2 text-sm" disabled={funnel.outcomeGoal.length === 0} onClick={() => go(2)}>
-                      Next <ArrowRight size={14} />
+                      Choose capabilities <ArrowRight size={14} />
                     </button>
                   </div>
                 </motion.div>
@@ -374,25 +366,24 @@ export default function CTAFunnel() {
                 <motion.div key="step2" custom={dir} variants={slideVariants} initial="enter" animate="center" exit="exit">
                   <div className="mb-6">
                     <h3 className="text-xl font-bold tracking-tight mb-1" style={{ color: "#e0eaff" }}>
-                      How will your team use analytics?
+                      Choose exact capabilities you want to use
                     </h3>
                     <p className="text-sm" style={{ color: "rgba(224,234,255,0.45)" }}>
-                      Pick one or more that describe your setup.
+                      Pick one or more — we&apos;ll tailor the plan to these.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-3 mb-8">
+                  <div className="flex flex-col gap-2 mb-8">
                     {[
-                      { label: "We want ready-to-use dashboards and reports", sub: "Operational insights without building analytics from scratch.", icon: <BarChart2 size={18} /> },
-                      { label: "We can customize dashboards and reports internally", sub: "Analysts or ops configure reports and dashboards for our workflows.", icon: <Settings size={18} /> },
-                      { label: "We have data analysts who build models and insights", sub: "Team creates forecasts, performance models, advanced analytics.", icon: <Brain size={18} /> },
-                      { label: "We have developers building custom solutions", sub: "Integrate data into internal systems, AI tools, or applications.", icon: <Code size={18} /> },
-                      { label: "We just resell this solution AS IS", sub: "Resell IoT Query to end-users as-is.", icon: <Rocket size={18} /> },
+                      { label: "We want ready-to-use dashboards and reports", icon: <BarChart2 size={18} /> },
+                      { label: "We can customize dashboards and reports internally", icon: <Settings size={18} /> },
+                      { label: "We have data analysts who build models and insights", icon: <Brain size={18} /> },
+                      { label: "We have developers building custom solutions", icon: <Code size={18} /> },
+                      { label: "We just resell this solution AS IS", icon: <Rocket size={18} /> },
                     ].map((opt) => (
                       <BigCard
                         key={opt.label}
                         icon={opt.icon}
                         label={opt.label}
-                        sub={opt.sub}
                         selected={funnel.customerType.includes(opt.label)}
                         onClick={() => toggleCustomerType(opt.label)}
                       />
@@ -403,7 +394,7 @@ export default function CTAFunnel() {
                       <ChevronLeft size={14} /> Back
                     </button>
                     <button type="button" className="neon-btn flex items-center gap-2 text-sm" disabled={funnel.customerType.length === 0} onClick={() => go(3)}>
-                      Next <ArrowRight size={14} />
+                      Choose where to apply <ArrowRight size={14} />
                     </button>
                   </div>
                 </motion.div>
@@ -412,25 +403,24 @@ export default function CTAFunnel() {
                 <motion.div key="step3" custom={dir} variants={slideVariants} initial="enter" animate="center" exit="exit">
                   <div className="mb-6">
                     <h3 className="text-xl font-bold tracking-tight mb-1" style={{ color: "#e0eaff" }}>
-                      Where in your operations would you apply this intelligence?
+                      Choose where to apply
                     </h3>
                     <p className="text-sm" style={{ color: "rgba(224,234,255,0.45)" }}>
-                      Choose one or more areas. We&apos;ll show you how it works in a real scenario.
+                      Pick one or more areas — we&apos;ll show you how it works in a real scenario.
                     </p>
                   </div>
-                  <div className="flex flex-col gap-3 mb-8">
+                  <div className="flex flex-col gap-2 mb-8">
                     {[
-                      { label: "Fleet operations & trip monitoring", sub: "Trips, vehicle status, idle time, shift activity, fleet utilization.", icon: <Truck size={18} /> },
-                      { label: "Driver performance & workforce management", sub: "Driver behavior, safety events, efficiency scores, productivity.", icon: <UserCheck size={18} /> },
-                      { label: "Maintenance planning & asset health", sub: "Vehicle condition, service tasks, maintenance history, predict repairs.", icon: <Wrench size={18} /> },
-                      { label: "Fuel consumption & cost control", sub: "Fuel by vehicle, route, driver, or depot; identify inefficiencies.", icon: <Fuel size={18} /> },
-                      { label: "Sensor & operational event monitoring", sub: "Temperature, engine data, cargo, warehouse dwell, events.", icon: <Activity size={18} /> },
+                      { label: "Fleet operations & trip monitoring", icon: <Truck size={18} /> },
+                      { label: "Driver performance & workforce management", icon: <UserCheck size={18} /> },
+                      { label: "Maintenance planning & asset health", icon: <Wrench size={18} /> },
+                      { label: "Fuel consumption & cost control", icon: <Fuel size={18} /> },
+                      { label: "Sensor & operational event monitoring", icon: <Activity size={18} /> },
                     ].map((opt) => (
                       <BigCard
                         key={opt.label}
                         icon={opt.icon}
                         label={opt.label}
-                        sub={opt.sub}
                         selected={funnel.operationsArea.includes(opt.label)}
                         onClick={() => toggleOperationsArea(opt.label)}
                       />
@@ -446,7 +436,7 @@ export default function CTAFunnel() {
                       disabled={funnel.operationsArea.length === 0}
                       onClick={() => { setForm((f) => ({ ...f, role: funnel.customerType.join(", ") })); go(4); }}
                     >
-                      Get my plan <ArrowRight size={14} />
+                      Finalize & get demo <ArrowRight size={14} />
                     </button>
                   </div>
                 </motion.div>
@@ -454,7 +444,7 @@ export default function CTAFunnel() {
                 <motion.div key="step4" custom={dir} variants={slideVariants} initial="enter" animate="center" exit="exit">
                   <div className="mb-6">
                     <h3 className="text-xl font-bold tracking-tight mb-1" style={{ color: "#e0eaff" }}>
-                      Get your tailored analytics plan
+                      Finalize request and get a demo
                     </h3>
                     <p className="text-sm" style={{ color: "rgba(224,234,255,0.45)" }}>
                       We&apos;ll email you a recommended dashboard set, model template, and next steps based on your choices.

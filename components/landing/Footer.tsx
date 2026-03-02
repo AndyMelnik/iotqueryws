@@ -21,7 +21,9 @@ const footerLinks = [
       { label: "Documentation", href: "https://www.navixy.com/docs/analytics", external: true },
       { label: "IoT Query (Navixy)", href: "https://www.navixy.com/en/iot-query", external: true },
       { label: "Capabilities", href: "#capabilities" },
-      { label: "Contact", href: "mailto:hello@iotquery.io" },
+      { label: "Privacy policy", href: "https://www.navixy.com/legal/privacy-policy/", external: true },
+      { label: "Terms of service", href: "https://www.navixy.com/legal/terms-of-service/", external: true },
+      { label: "Legal center", href: "https://www.navixy.com/legal/", external: true },
     ],
   },
 ];
