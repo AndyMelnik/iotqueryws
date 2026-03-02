@@ -204,7 +204,7 @@ export default function ComplianceReportingFrame() {
                   <BarChart data={violationsByDay} margin={{ top: 4, right: 4, bottom: 0, left: 4 }}>
                     <XAxis dataKey="day" tick={{ fill: "rgba(224,234,255,0.4)", fontSize: 8 }} axisLine={false} tickLine={false} />
                     <YAxis hide />
-                    <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`${v} violations`, ""]} />
+                    <Tooltip contentStyle={tooltipStyle} formatter={(v) => [v != null ? `${v} violations` : "", ""]} />
                     <Bar dataKey="violations" fill="#b300ff" fillOpacity={0.7} radius={[3, 3, 0, 0]} />
                   </BarChart>
                 </ResponsiveContainer>
@@ -220,7 +220,7 @@ export default function ComplianceReportingFrame() {
                     <CartesianGrid strokeDasharray="2 2" stroke="rgba(100,150,255,0.1)" />
                     <XAxis dataKey="day" tick={{ fill: "rgba(224,234,255,0.4)", fontSize: 8 }} axisLine={false} tickLine={false} />
                     <YAxis domain={[0, 100]} tick={{ fill: "rgba(224,234,255,0.4)", fontSize: 8 }} width={24} axisLine={false} tickLine={false} />
-                    <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [v, "Risk score"]} />
+                    <Tooltip contentStyle={tooltipStyle} formatter={(v) => [v != null ? v : "", "Risk score"]} />
                     <Line type="monotone" dataKey="riskScore" stroke="#b300ff" strokeWidth={2} dot={{ fill: "#b300ff", r: 3 }} name="Risk score" />
                   </LineChart>
                 </ResponsiveContainer>
@@ -290,7 +290,7 @@ export default function ComplianceReportingFrame() {
                 <BarChart data={driverComparisonData} layout="vertical" margin={{ top: 4, right: 4, bottom: 4, left: 2 }}>
                   <XAxis type="number" domain={[0, 100]} tick={{ fill: "rgba(224,234,255,0.4)", fontSize: 8 }} axisLine={false} tickLine={false} />
                   <YAxis type="category" dataKey="driver" tick={{ fill: "rgba(224,234,255,0.6)", fontSize: 9 }} width={92} axisLine={false} tickLine={false} />
-                  <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [`${v}%`, "Driving used"]} />
+                  <Tooltip contentStyle={tooltipStyle} formatter={(v) => [v != null ? `${v}%` : "", "Driving used"]} />
                   <Legend wrapperStyle={{ fontSize: 10 }} iconType="circle" iconSize={8} formatter={() => "Driving % used"} />
                   <Bar dataKey="drivingPct" fill="#b300ff" fillOpacity={0.8} radius={[0, 3, 3, 0]} name="Driving % used" />
                 </BarChart>
@@ -319,7 +319,7 @@ export default function ComplianceReportingFrame() {
                 <BarChart data={complianceStatusData} margin={{ top: 4, right: 4, bottom: 4, left: 4 }}>
                   <XAxis dataKey="status" tick={{ fill: "rgba(224,234,255,0.5)", fontSize: 9 }} axisLine={false} tickLine={false} />
                   <YAxis allowDecimals={false} tick={{ fill: "rgba(224,234,255,0.4)", fontSize: 8 }} width={20} axisLine={false} tickLine={false} />
-                  <Tooltip contentStyle={tooltipStyle} formatter={(v: number) => [v, "Rules"]} />
+                  <Tooltip contentStyle={tooltipStyle} formatter={(v) => [v != null ? v : "", "Rules"]} />
                   <Bar dataKey="count" radius={[3, 3, 0, 0]}>
                     <Cell fill="#00f0ff" />
                     <Cell fill="#b300ff" />
