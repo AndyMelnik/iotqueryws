@@ -4,7 +4,7 @@ export const navLinks = [
   { label: "Events", href: "#analytics-transform" },
   { label: "AI-Readiness", href: "#analytics-ai" },
   { label: "Forecasts", href: "#analytics-forecast" },
-  { label: "Get Started!", href: "#cta" },
+  { label: "Get Started!", href: "#capabilities" },
 ];
 
 export const impactStats = [
