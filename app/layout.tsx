@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import ScrollToTop from "@/components/ScrollToTop";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -34,6 +35,7 @@ export default function RootLayout({
         className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased grid-bg noise-overlay`}
         suppressHydrationWarning
       >
+        <ScrollToTop />
         {children}
       </body>
     </html>

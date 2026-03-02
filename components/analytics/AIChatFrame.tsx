@@ -31,10 +31,13 @@ export default function AIChatFrame() {
   const [messages, setMessages] = useState<Message[]>([INITIAL]);
   const [input, setInput] = useState("");
   const [loading, setLoading] = useState(false);
-  const bottomRef = useRef<HTMLDivElement>(null);
+  const messagesContainerRef = useRef<HTMLDivElement>(null);
 
+  // Scroll only the messages container to bottom (keeps view inside AI-Readiness section)
   useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth" });
+    const el = messagesContainerRef.current;
+    if (!el) return;
+    el.scrollTop = el.scrollHeight;
   }, [messages, loading]);
 
   const respond = (query: string) => {
@@ -94,8 +97,12 @@ export default function AIChatFrame() {
 
   return (
     <div className="flex flex-col gap-4" style={{ height: "380px" }}>
-      {/* Messages */}
-      <div className="flex-1 overflow-y-auto flex flex-col gap-4 pr-1" style={{ scrollbarWidth: "thin", scrollbarColor: "rgba(179,0,255,0.2) transparent" }}>
+      {/* Messages — scroll container: only this div scrolls, not the page */}
+      <div
+        ref={messagesContainerRef}
+        className="flex-1 overflow-y-auto flex flex-col gap-4 pr-1 min-h-0"
+        style={{ scrollbarWidth: "thin", scrollbarColor: "rgba(179,0,255,0.2) transparent" }}
+      >
         {messages.map((msg, i) => (
           <div key={i} className={`flex gap-3 ${msg.role === "user" ? "flex-row-reverse" : ""}`}>
             {/* Avatar */}
@@ -137,21 +144,26 @@ export default function AIChatFrame() {
             </div>
           </div>
         )}
-        <div ref={bottomRef} />
       </div>
 
-      {/* Suggested prompts */}
-      {messages.length === 1 && (
-        <div className="flex flex-wrap gap-2">
+      {/* Suggested prompts — always visible so users can pick another */}
+      <div className="flex flex-wrap gap-2">
           {SUGGESTED.map((s) => (
-            <button key={s} type="button" onClick={() => send(s)}
+            <button
+              key={s}
+              type="button"
+              onClick={(e) => {
+                e.preventDefault();
+                (e.currentTarget as HTMLButtonElement).blur();
+                send(s);
+              }}
               className="text-xs px-3 py-1.5 rounded-full transition-all duration-200"
-              style={{ background: "rgba(100,150,255,0.06)", border: "1px solid rgba(100,150,255,0.2)", color: "rgba(224,234,255,0.6)", cursor: "pointer" }}>
+              style={{ background: "rgba(100,150,255,0.06)", border: "1px solid rgba(100,150,255,0.2)", color: "rgba(224,234,255,0.6)", cursor: "pointer" }}
+            >
               {s}
             </button>
           ))}
         </div>
-      )}
 
       {/* Input */}
       <div className="flex gap-3 items-end">
