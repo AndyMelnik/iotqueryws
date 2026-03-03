@@ -332,7 +332,7 @@ export default function CTAFunnel() {
                 <motion.div key="step1" custom={dir} variants={slideVariants} initial="enter" animate="center" exit="exit">
                   <div className="mb-6">
                     <h3 className="text-xl font-bold tracking-tight mb-1" style={{ color: "#e0eaff" }}>
-                      Choose who is going to operate with data
+                      Choose your main objective for using analytics
                     </h3>
                     <p className="text-sm" style={{ color: "rgba(224,234,255,0.45)" }}>
                       Pick one or more — we&apos;ll show you the right setup.
@@ -344,7 +344,7 @@ export default function CTAFunnel() {
                       { label: "Generate custom reports for compliance and control", icon: <FileText size={18} /> },
                       { label: "Transform and model data for forecasting and optimization", icon: <LineChart size={18} /> },
                       { label: "Use your fleet data to power AI tools and assistants", icon: <Bot size={18} /> },
-                      { label: "Offer advanced analytics as a service to your customers", icon: <Rocket size={18} /> },
+                      { label: "Just resell analytics as a service to your customers", icon: <Rocket size={18} /> },
                     ].map((opt) => (
                       <BigCard
                         key={opt.label}
@@ -362,23 +362,38 @@ export default function CTAFunnel() {
                   </div>
                 </motion.div>
               ) : step === 2 ? (
-                /* ── Step 2: Who (capability) ── */
+                /* ── Step 2: Who will use it ── */
                 <motion.div key="step2" custom={dir} variants={slideVariants} initial="enter" animate="center" exit="exit">
                   <div className="mb-6">
                     <h3 className="text-xl font-bold tracking-tight mb-1" style={{ color: "#e0eaff" }}>
-                      Choose exact capabilities you want to use
+                      Choose who is going to operator with data and analytics
                     </h3>
                     <p className="text-sm" style={{ color: "rgba(224,234,255,0.45)" }}>
-                      Pick one or more — we&apos;ll tailor the plan to these.
+                      Pick one or more user types that match your team.
                     </p>
                   </div>
                   <div className="flex flex-col gap-2 mb-8">
                     {[
-                      { label: "We want ready-to-use dashboards and reports", icon: <BarChart2 size={18} /> },
-                      { label: "We can customize dashboards and reports internally", icon: <Settings size={18} /> },
-                      { label: "We have data analysts who build models and insights", icon: <Brain size={18} /> },
-                      { label: "We have developers building custom solutions", icon: <Code size={18} /> },
-                      { label: "We just resell this solution AS IS", icon: <Rocket size={18} /> },
+                      {
+                        label: "Common users, teams using dashboards and reports as they are",
+                        icon: <LayoutDashboard size={18} />,
+                      },
+                      {
+                        label: "Power users, who configure and maintain dashboards and reports for others",
+                        icon: <Settings size={18} />,
+                      },
+                      {
+                        label: "Data analysts, who explore data and build insights with SQL",
+                        icon: <Brain size={18} />,
+                      },
+                      {
+                        label: "Developers, who build custom analytics apps and integrations",
+                        icon: <Code size={18} />,
+                      },
+                      {
+                        label: "We have not decided yet",
+                        icon: <Activity size={18} />,
+                      },
                     ].map((opt) => (
                       <BigCard
                         key={opt.label}
@@ -399,23 +414,23 @@ export default function CTAFunnel() {
                   </div>
                 </motion.div>
               ) : step === 3 ? (
-                /* ── Step 3: Where to apply ── */
+                /* ── Step 3: How to apply ── */
                 <motion.div key="step3" custom={dir} variants={slideVariants} initial="enter" animate="center" exit="exit">
                   <div className="mb-6">
                     <h3 className="text-xl font-bold tracking-tight mb-1" style={{ color: "#e0eaff" }}>
-                      Choose where to apply
+                      Choose how to apply
                     </h3>
                     <p className="text-sm" style={{ color: "rgba(224,234,255,0.45)" }}>
-                      Pick one or more areas — we&apos;ll show you how it works in a real scenario.
+                      Pick one or more ways you want to use analytics with IoT Query.
                     </p>
                   </div>
                   <div className="flex flex-col gap-2 mb-8">
                     {[
-                      { label: "Fleet operations & trip monitoring", icon: <Truck size={18} /> },
-                      { label: "Driver performance & workforce management", icon: <UserCheck size={18} /> },
-                      { label: "Maintenance planning & asset health", icon: <Wrench size={18} /> },
-                      { label: "Fuel consumption & cost control", icon: <Fuel size={18} /> },
-                      { label: "Sensor & operational event monitoring", icon: <Activity size={18} /> },
+                      { label: "Use embeded Dashboard Studio for custom dashboards and reports", icon: <LayoutDashboard size={18} /> },
+                      { label: "Use my preferred BI tools (Power BI, Tableau, Superset, etc.)", icon: <BarChart2 size={18} /> },
+                      { label: "Develop my own analytics tool and integrate with IoT Query", icon: <Code size={18} /> },
+                      { label: "Develop AI-based tools and assistants, MCP servers, n8n automation flows, etc.", icon: <Bot size={18} /> },
+                      { label: "Have not decided yet", icon: <Activity size={18} /> },
                     ].map((opt) => (
                       <BigCard
                         key={opt.label}
