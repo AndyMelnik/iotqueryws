@@ -1,19 +1,20 @@
-import Navbar from "@/components/landing/Navbar";
-import Hero from "@/components/landing/Hero";
-import CapabilitiesGrid from "@/components/landing/CapabilitiesGrid";
-import AnalyticsHub from "@/components/landing/AnalyticsHub";
-import CTAFunnel from "@/components/landing/CTAFunnel";
-import Footer from "@/components/landing/Footer";
+import { getPageByPath } from "@/lib/site-config";
+import SiteNavbar from "@/components/site/SiteNavbar";
+import SiteFooter from "@/components/site/SiteFooter";
+import PageTemplate from "@/components/site/PageTemplate";
 
 export default function Home() {
+  const page = getPageByPath("/");
+
+  if (!page) {
+    return null;
+  }
+
   return (
-    <main className="relative overflow-x-hidden">
-      <Navbar />
-      <Hero />
-      <CapabilitiesGrid />
-      <AnalyticsHub />
-      <CTAFunnel />
-      <Footer />
-    </main>
+    <>
+      <SiteNavbar />
+      <PageTemplate page={page} />
+      <SiteFooter />
+    </>
   );
 }

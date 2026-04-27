@@ -1,0 +1,1795 @@
+{
+  "navigation": [
+    {
+      "label": "Solutions",
+      "href": "/solutions",
+      "children": [
+        {
+          "label": "Asset Utilization",
+          "href": "/solutions/asset-utilization"
+        },
+        {
+          "label": "Trips & Delivery",
+          "href": "/solutions/trips-delivery"
+        },
+        {
+          "label": "Driver Safety",
+          "href": "/solutions/driver-safety"
+        },
+        {
+          "label": "Maintenance",
+          "href": "/solutions/maintenance"
+        },
+        {
+          "label": "Compliance",
+          "href": "/solutions/compliance"
+        }
+      ]
+    },
+    {
+      "label": "Industries",
+      "href": "/industries",
+      "children": [
+        {
+          "label": "Transport",
+          "href": "/industries/transport-logistics"
+        },
+        {
+          "label": "Leasing",
+          "href": "/industries/leasing"
+        },
+        {
+          "label": "Heavy Machinery",
+          "href": "/industries/heavy-machinery"
+        },
+        {
+          "label": "Cold Chain",
+          "href": "/industries/cold-chain-pharma"
+        }
+      ]
+    },
+    {
+      "label": "Roles",
+      "href": "/roles",
+      "children": [
+        {
+          "label": "Fleet Manager",
+          "href": "/roles/fleet-manager"
+        },
+        {
+          "label": "COO",
+          "href": "/roles/coo-operations-director"
+        },
+        {
+          "label": "Safety Manager",
+          "href": "/roles/safety-manager"
+        },
+        {
+          "label": "Finance",
+          "href": "/roles/finance-leader"
+        }
+      ]
+    },
+    {
+      "label": "Tools",
+      "href": "/tools",
+      "children": [
+        {
+          "label": "Dashboard Studio",
+          "href": "/tools/dashboard-studio"
+        },
+        {
+          "label": "3rd Party BI",
+          "href": "/tools/third-party-bi"
+        },
+        {
+          "label": "Custom Apps",
+          "href": "/tools/custom-apps"
+        }
+      ]
+    },
+    {
+      "label": "Price",
+      "href": "#price"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "/",
+      "title": "Fleet Decision Intelligence Platform",
+      "heroHeadline": "Turn Telematics Data into Better Decisions, Lower Costs and Higher Fleet Performance",
+      "heroIntroLine": "Turn Telematics Data into",
+      "heroRotatingPhrases": [
+        "Better Decisions",
+        "Lower Costs",
+        "Higher Fleet Performance"
+      ],
+      "subtitle": "Operational intelligence that helps fleet teams cut costs, improve service, and scale performance with confidence.",
+      "ctas": [
+        {
+          "label": "Explore Solutions",
+          "href": "/solutions"
+        },
+        {
+          "label": "Book Demo",
+          "href": "#cta"
+        }
+      ],
+      "sections": [
+        {
+          "title": "Roles",
+          "description": "Choose your role to see the most important decisions, KPIs, and measurable outcomes.",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Fleet Manager",
+              "text": "Reduce daily cost leakage and improve fleet productivity with faster operational decisions.",
+              "href": "/roles/fleet-manager"
+            },
+            {
+              "title": "Operations Leader",
+              "text": "Scale throughput, protect margin, and improve service consistency across the network.",
+              "href": "/roles/coo-operations-director"
+            },
+            {
+              "title": "Safety Manager",
+              "text": "Lower incident exposure and improve driver coaching with clear risk signals.",
+              "href": "/roles/safety-manager"
+            },
+            {
+              "title": "Finance Leader",
+              "text": "Link operational performance to ROI, cost-to-serve, and smarter investment planning.",
+              "href": "/roles/finance-leader"
+            }
+          ]
+        },
+        {
+          "title": "",
+          "outcomeRows": [
+            {
+              "title": "Reduce Costs",
+              "subtitle": "Protect margins by eliminating avoidable operational loss",
+              "stats": [
+                {
+                  "value": "25%",
+                  "label": "Higher asset utilization"
+                }
+              ],
+              "context": [
+                "Cut unnecessary fuel burn and unproductive asset hours.",
+                "Keep more budget in operations by reducing hidden leakage.",
+                "Use clear cost signals to prioritize the highest-impact actions."
+              ]
+            },
+            {
+              "title": "Improve Efficiency",
+              "subtitle": "Increase daily output without adding assets or headcount",
+              "stats": [
+                {
+                  "value": "28%",
+                  "label": "Lower vehicle downtime"
+                }
+              ],
+              "context": [
+                "Coordinate teams faster with fewer manual handoffs.",
+                "Keep vehicles available and crews productive through the day.",
+                "Scale throughput with better operating discipline."
+              ]
+            },
+            {
+              "title": "Safety & Compliance",
+              "subtitle": "Reduce incidents while keeping compliance audit-ready",
+              "stats": [
+                {
+                  "value": "40%",
+                  "label": "Lower compliance violations"
+                }
+              ],
+              "context": [
+                "Lower preventable events before they become expensive claims.",
+                "Improve driver behavior consistency across teams.",
+                "Strengthen compliance confidence with better operational visibility."
+              ]
+            },
+            {
+              "title": "Increase Revenue",
+              "subtitle": "Generate more value from existing fleet capacity",
+              "stats": [
+                {
+                  "value": "20%",
+                  "label": "Higher customer retention"
+                }
+              ],
+              "context": [
+                "Serve more demand using assets you already operate.",
+                "Improve reliability that keeps customers renewing longer.",
+                "Turn operational consistency into steady top-line growth."
+              ]
+            },
+            {
+              "title": "Predictive Decisions",
+              "subtitle": "Anticipate issues before they impact cost and service",
+              "stats": [
+                {
+                  "value": "4 weeks",
+                  "label": "Earlier failure prediction"
+                }
+              ],
+              "context": [
+                "Prevent disruptions earlier instead of reacting after the fact.",
+                "Plan maintenance and service windows with more confidence.",
+                "Use predictive signals to keep operations stable and profitable."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Industries",
+          "description": "Explore industry pages with the KPI sets and analytics views that matter most for each operation type.",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Transport & Logistics",
+              "text": "Core metrics: route efficiency, on-time delivery, cost per mile.",
+              "href": "/industries/transport-logistics"
+            },
+            {
+              "title": "Heavy Machinery",
+              "text": "Core metrics: machine utilization, downtime, preventive maintenance risk.",
+              "href": "/industries/heavy-machinery"
+            },
+            {
+              "title": "Cold Chain",
+              "text": "Core metrics: excursion rate, compliance score, condition assurance.",
+              "href": "/industries/cold-chain-pharma"
+            },
+            {
+              "title": "Leasing",
+              "text": "Core metrics: asset ROI, lifecycle cost, residual value risk.",
+              "href": "/industries/leasing"
+            }
+          ]
+        },
+        {
+          "title": "Tools",
+          "description": "Choose the best analytics delivery model for your team: built-in dashboards, open BI, or purpose-built apps.",
+          "cards": [
+            {
+              "title": "Dashboard Studio",
+              "text": "Build self-service operational dashboards without launching a full BI project.",
+              "examples": [
+                "Fleet command center with live KPI tiles",
+                "Executive scorecard for cost and productivity",
+                "Customer-facing service transparency dashboard"
+              ],
+              "interfacePreview": [
+                "Stat tiles",
+                "Charts + tables",
+                "Role filters",
+                "Share/export"
+              ],
+              "href": "/tools/dashboard-studio"
+            },
+            {
+              "title": "Open BI Ecosystem",
+              "text": "Connect your existing BI tools to analytics-ready IoT Query datasets.",
+              "examples": [
+                "Power BI board for margin and cost-to-serve",
+                "Grafana wallboard for live operational monitoring",
+                "Superset SQL exploration for advanced analysts"
+              ],
+              "interfacePreview": [
+                "Power BI",
+                "Grafana",
+                "Superset",
+                "Tableau"
+              ],
+              "href": "/tools/third-party-bi"
+            },
+            {
+              "title": "Custom Apps",
+              "text": "Create purpose-built decision apps for specific operational workflows.",
+              "examples": [
+                "Sensor anomaly workflow with alert-to-action flow",
+                "Trip profitability app by route and customer",
+                "Cold chain exception app with compliance trail"
+              ],
+              "interfacePreview": [
+                "Workflow cards",
+                "Guided actions",
+                "Exception queues",
+                "Audit trail"
+              ],
+              "href": "/tools/custom-apps"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/solutions",
+      "title": "Explore by Problem",
+      "heroHeadline": "Solutions for Cost, Efficiency, Safety and Predictive Operations",
+      "subtitle": "Choose the business problem you want to solve and jump into practical solution pages.",
+      "proof": [
+        "Asset Utilization",
+        "Trips & Delivery",
+        "Driver Safety"
+      ],
+      "sections": [
+        {
+          "title": "Solution Clusters",
+          "cards": [
+            {
+              "title": "Asset Utilization",
+              "text": "+22% utilization, -15% empty mileage",
+              "href": "/solutions/asset-utilization"
+            },
+            {
+              "title": "Trips & Delivery",
+              "text": "+18% route efficiency, +12% on-time delivery",
+              "href": "/solutions/trips-delivery"
+            },
+            {
+              "title": "Driver Safety",
+              "text": "-32% safety events, -18% claims",
+              "href": "/solutions/driver-safety"
+            },
+            {
+              "title": "Maintenance",
+              "text": "Shift from reactive to planned maintenance.",
+              "href": "/solutions/maintenance"
+            },
+            {
+              "title": "Compliance",
+              "text": "Reduce violations and audit friction.",
+              "href": "/solutions/compliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/solutions/asset-utilization",
+      "title": "Asset Utilization Intelligence",
+      "heroHeadline": "Get More Productivity from Every Asset",
+      "subtitle": "Increase productive asset time, reduce idle capacity, and unlock output without adding fleet.",
+      "ctas": [
+        {
+          "label": "See it in action",
+          "href": "#cta"
+        },
+        {
+          "label": "Talk to an expert",
+          "href": "#cta"
+        }
+      ],
+      "proof": [
+        "+22% asset utilization",
+        "-15% empty mileage",
+        "-18% idle time"
+      ],
+      "sections": [
+        {
+          "title": "Key Challenge",
+          "description": "Capacity is constrained. Assets still sit idle.",
+          "bullets": [
+            "Most fleets do not have a utilization problem — they have a visibility problem.",
+            "Assets underused while demand grows.",
+            "Excess idle or dwell time.",
+            "Empty miles eroding margins.",
+            "Too much capital tied in underperforming assets."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "22%",
+              "label": "Higher asset utilization"
+            },
+            {
+              "value": "15%",
+              "label": "Less empty mileage"
+            },
+            {
+              "value": "18%",
+              "label": "Lower idle time"
+            },
+            {
+              "value": "10-20%",
+              "label": "Delay in new asset purchases (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What High Performance Looks Like",
+          "bullets": [
+            "Know which assets are over- or under-utilized.",
+            "Know where time is lost between jobs.",
+            "Know when assets should be redeployed.",
+            "Know how to increase output without adding fleet."
+          ],
+          "kpiStrip": [
+            "Utilization Rate",
+            "Productive Hours",
+            "Idle-to-Active Ratio",
+            "Revenue per Asset"
+          ]
+        },
+        {
+          "title": "How It Works",
+          "description": "Utilization intelligence built from operational data.",
+          "bullets": [
+            "Correlate trips, idle time, dwell time, assignments, route activity and asset availability.",
+            "Turn raw telematics into decisions on: use more, move differently, right-size fleet."
+          ]
+        },
+        {
+          "title": "Practical Use Cases",
+          "cards": [
+            {
+              "title": "Fleet Utilization Benchmarking",
+              "text": "Compare vehicles, routes, teams or depots. Find underperforming assets, capacity gaps and utilization imbalance. Outcome: improve fleet productivity without adding assets."
+            },
+            {
+              "title": "Idle Reduction",
+              "text": "Detect excess idle, long dwell times and unproductive route patterns. Outcome: reduce wasted hours and fuel."
+            },
+            {
+              "title": "Asset Redeployment",
+              "text": "Rebalance fleet allocation, delay capex and support expansion planning. Outcome: more output from existing assets."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Trips & Delivery Optimization",
+              "href": "/solutions/trips-delivery"
+            },
+            {
+              "label": "Maintenance Intelligence",
+              "href": "/solutions/maintenance"
+            },
+            {
+              "label": "Cost Reduction Analytics",
+              "href": "/solutions"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/solutions/trips-delivery",
+      "title": "Delivery & Trip Performance Intelligence",
+      "heroHeadline": "Improve Delivery Performance Without Adding Complexity",
+      "subtitle": "Improve route efficiency, on-time delivery, and service reliability while lowering delivery cost.",
+      "ctas": [
+        {
+          "label": "See it in action",
+          "href": "#cta"
+        },
+        {
+          "label": "Talk to an expert",
+          "href": "#cta"
+        }
+      ],
+      "proof": [
+        "+18% route efficiency",
+        "+12% on-time delivery",
+        "-14% cost per delivery"
+      ],
+      "sections": [
+        {
+          "title": "Key Challenge",
+          "description": "More trips do not always mean better performance.",
+          "bullets": [
+            "Inefficient routes.",
+            "Empty or unproductive miles.",
+            "Poor ETA reliability.",
+            "Service exceptions and missed SLAs.",
+            "Result: higher costs and lower service quality."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "18%",
+              "label": "Higher route efficiency"
+            },
+            {
+              "value": "12%",
+              "label": "Better on-time delivery"
+            },
+            {
+              "value": "14%",
+              "label": "Lower delivery cost"
+            },
+            {
+              "value": "20%",
+              "label": "Fewer service exceptions (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What Good Looks Like",
+          "bullets": [
+            "Know which routes underperform.",
+            "Know where delays originate.",
+            "Know which trips lose margin.",
+            "Know how to improve service without adding vehicles."
+          ],
+          "kpiStrip": [
+            "On-Time Delivery",
+            "Cost per Delivery",
+            "Route Efficiency",
+            "Trip Profitability"
+          ]
+        },
+        {
+          "title": "How It Works",
+          "description": "Turn trip data into delivery decisions.",
+          "bullets": [
+            "Correlate trips, stops, route adherence, ETA variance, dwell time and delivery events.",
+            "Use operational intelligence to optimize routing, dispatching, scheduling and service execution."
+          ]
+        },
+        {
+          "title": "Practical Use Cases",
+          "cards": [
+            {
+              "title": "Route Efficiency Optimization",
+              "text": "Find route deviations, empty miles and inefficient sequences. Outcome: reduce cost per trip."
+            },
+            {
+              "title": "On-Time Delivery & SLA Performance",
+              "text": "Track ETA accuracy, late arrivals and missed windows. Outcome: improve customer service performance."
+            },
+            {
+              "title": "Trip Profitability Analysis",
+              "text": "Analyze cost per route, revenue per trip and service cost drivers. Outcome: improve trip economics."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Asset Utilization Intelligence",
+              "href": "/solutions/asset-utilization"
+            },
+            {
+              "label": "Driver Safety",
+              "href": "/solutions/driver-safety"
+            },
+            {
+              "label": "Maintenance Intelligence",
+              "href": "/solutions/maintenance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/solutions/driver-safety",
+      "title": "Driver Safety & Risk Intelligence",
+      "heroHeadline": "Reduce Risk by Improving Driver Safety",
+      "subtitle": "Reduce incidents, improve driver behavior, and lower claims exposure with proactive safety intelligence.",
+      "ctas": [
+        {
+          "label": "See it in action",
+          "href": "#cta"
+        },
+        {
+          "label": "Talk to an expert",
+          "href": "#cta"
+        }
+      ],
+      "proof": [
+        "-32% safety events",
+        "-18% insurance claims",
+        "+24% safer driving score improvement"
+      ],
+      "sections": [
+        {
+          "title": "Key Challenge",
+          "description": "Unsafe behavior creates hidden losses.",
+          "bullets": [
+            "Risk often shows up before accidents happen.",
+            "Speeding and harsh driving.",
+            "Preventable incidents.",
+            "Rising insurance costs.",
+            "Reactive safety management."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "32%",
+              "label": "Fewer safety events"
+            },
+            {
+              "value": "18%",
+              "label": "Lower insurance claims"
+            },
+            {
+              "value": "24%",
+              "label": "Improvement in driver safety scores"
+            },
+            {
+              "value": "15-20%",
+              "label": "Lower accident-related costs (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What Good Looks Like",
+          "bullets": [
+            "Know which behaviors drive risk.",
+            "Know which drivers need coaching.",
+            "Know where incidents are likely to happen.",
+            "Know how safety performance improves over time."
+          ],
+          "kpiStrip": [
+            "Driver Risk Score",
+            "Safety Events",
+            "Claims Exposure",
+            "Coaching Effectiveness"
+          ]
+        },
+        {
+          "title": "How It Works",
+          "description": "Turn driver data into risk decisions.",
+          "bullets": [
+            "Correlate driving events, speeding patterns, harsh braking/acceleration, route context, incident trends and driver history.",
+            "Use safety intelligence to reduce risk, coach proactively and improve policy compliance."
+          ]
+        },
+        {
+          "title": "Practical Use Cases",
+          "cards": [
+            {
+              "title": "Driver Scoring",
+              "text": "Track unsafe behaviors, driver trends and team risk. Outcome: prioritize intervention where it matters."
+            },
+            {
+              "title": "Driver Coaching",
+              "text": "Coach proactively, reinforce safe habits and reduce repeat events. Outcome: improve safety performance over time."
+            },
+            {
+              "title": "Risk Analytics",
+              "text": "Analyze high-risk patterns, incident predictors and claims trends. Outcome: lower claims and reduce operational risk."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Compliance Analytics",
+              "href": "/solutions/compliance"
+            },
+            {
+              "label": "Maintenance Intelligence",
+              "href": "/solutions/maintenance"
+            },
+            {
+              "label": "Asset Utilization",
+              "href": "/solutions/asset-utilization"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/solutions/maintenance",
+      "title": "Maintenance Intelligence",
+      "heroHeadline": "Reduce Unplanned Downtime with Predictive Maintenance Decisions",
+      "proof": [
+        "Lower repair cost",
+        "Higher fleet availability",
+        "Earlier failure detection"
+      ],
+      "sections": [
+        {
+          "title": "Focus Areas",
+          "bullets": [
+            "Maintenance exposure",
+            "Uptime risk",
+            "Asset health trends"
+          ]
+        }
+      ],
+      "subtitle": "Shift from reactive repairs to planned maintenance decisions that protect uptime and reduce cost."
+    },
+    {
+      "slug": "/solutions/compliance",
+      "title": "Compliance Analytics",
+      "heroHeadline": "Strengthen Compliance Performance and Reduce Operational Risk",
+      "proof": [
+        "Fewer violations",
+        "Faster audits",
+        "Lower compliance cost"
+      ],
+      "sections": [
+        {
+          "title": "Focus Areas",
+          "bullets": [
+            "Policy adherence",
+            "Incident evidence",
+            "Audit readiness"
+          ]
+        }
+      ],
+      "subtitle": "Strengthen compliance performance, reduce violations, and stay audit-ready with less operational friction."
+    },
+    {
+      "slug": "/industries",
+      "title": "Explore by Industry",
+      "heroHeadline": "Decision Intelligence Built for Industry-Specific Operations",
+      "sections": [
+        {
+          "title": "Industry Pages",
+          "cards": [
+            {
+              "title": "Transport & Logistics",
+              "href": "/industries/transport-logistics"
+            },
+            {
+              "title": "Leasing",
+              "href": "/industries/leasing"
+            },
+            {
+              "title": "Heavy Machinery",
+              "href": "/industries/heavy-machinery"
+            },
+            {
+              "title": "Cold Chain / Pharma",
+              "href": "/industries/cold-chain-pharma"
+            }
+          ]
+        }
+      ],
+      "subtitle": "Choose your industry to see relevant use cases, measurable outcomes, and best-fit solution paths."
+    },
+    {
+      "slug": "/industries/transport-logistics",
+      "title": "Fleet Intelligence for Transport & Logistics",
+      "heroHeadline": "Protect Margins While Improving Delivery Performance",
+      "subtitle": "Protect margins and improve delivery performance with decision intelligence built for transport operations.",
+      "ctas": [
+        {
+          "label": "Explore logistics solutions",
+          "href": "/solutions"
+        },
+        {
+          "label": "Talk to an expert",
+          "href": "#cta"
+        }
+      ],
+      "proof": [
+        "12% lower operating cost",
+        "14% more revenue per asset",
+        "18% better route efficiency"
+      ],
+      "sections": [
+        {
+          "title": "Industry Challenges",
+          "description": "Thin margins. Rising service pressure.",
+          "bullets": [
+            "Fuel, labor and maintenance costs rising.",
+            "Capacity constraints despite underused assets.",
+            "Empty miles reducing profitability.",
+            "Customer SLA expectations increasing.",
+            "Limited visibility into trip-level economics.",
+            "The issue is rarely lack of data. It is lack of decision intelligence."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "12%",
+              "label": "Lower operating cost"
+            },
+            {
+              "value": "14%",
+              "label": "More revenue per asset"
+            },
+            {
+              "value": "18%",
+              "label": "Higher route efficiency"
+            },
+            {
+              "value": "10-20%",
+              "label": "Reduction in empty miles (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What High-Performing Fleets Optimize",
+          "bullets": [
+            "Top fleets manage margins through operational intelligence.",
+            "Focus on cost per mile, fleet productivity, asset utilization and SLA performance.",
+            "Goal: not more data, but better operating decisions."
+          ],
+          "kpiStrip": [
+            "Cost per Mile",
+            "Revenue per Asset",
+            "On-Time Delivery",
+            "Utilization Rate"
+          ]
+        },
+        {
+          "title": "Where Intelligence Improves Operations",
+          "cards": [
+            {
+              "title": "Fleet Productivity",
+              "text": "Increase trips and output per asset."
+            },
+            {
+              "title": "Route Economics",
+              "text": "Reduce waste, empty miles and route inefficiencies."
+            },
+            {
+              "title": "SLA Intelligence",
+              "text": "Improve reliability and service performance."
+            },
+            {
+              "title": "Asset Profitability",
+              "text": "Understand which assets drive margin."
+            }
+          ]
+        },
+        {
+          "title": "Industry Use Cases",
+          "cards": [
+            {
+              "title": "Cost Per Mile Optimization",
+              "text": "Analyze fuel and idle costs, route inefficiencies and trip-level drivers. Outcome: lower transportation costs."
+            },
+            {
+              "title": "Fleet Productivity",
+              "text": "Measure trips per vehicle, utilization and driver productivity. Outcome: more throughput without growing fleet."
+            },
+            {
+              "title": "SLA & Delivery Intelligence",
+              "text": "Track ETA accuracy, service exceptions and on-time performance. Outcome: better service and retention."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Asset Utilization Intelligence",
+              "href": "/solutions/asset-utilization",
+              "text": "Increase output from every asset."
+            },
+            {
+              "label": "Trips & Delivery Optimization",
+              "href": "/solutions/trips-delivery",
+              "text": "Improve route efficiency and delivery performance."
+            },
+            {
+              "label": "Maintenance Intelligence",
+              "href": "/solutions/maintenance",
+              "text": "Reduce downtime and protect fleet availability."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/industries/leasing",
+      "title": "Connected Asset Intelligence for Leasing",
+      "heroHeadline": "Increase Asset Profitability While Reducing Risk",
+      "subtitle": "Increase asset profitability, control lifecycle cost, and protect residual value across your leasing portfolio.",
+      "ctas": [
+        {
+          "label": "Explore leasing solutions",
+          "href": "/solutions"
+        },
+        {
+          "label": "Talk to an expert",
+          "href": "#cta"
+        }
+      ],
+      "proof": [
+        "15% higher utilization",
+        "12% lower lifecycle costs",
+        "20% fewer misuse losses"
+      ],
+      "sections": [
+        {
+          "title": "Industry Challenges",
+          "description": "Asset value is won or lost after deployment.",
+          "bullets": [
+            "Assets underutilized across contracts.",
+            "Limited visibility into asset profitability.",
+            "Misuse, unauthorized usage and damage exposure.",
+            "Residual value affected by poor lifecycle management.",
+            "Growing pressure to maximize return per asset."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "15%",
+              "label": "Higher asset utilization"
+            },
+            {
+              "value": "12%",
+              "label": "Lower lifecycle costs"
+            },
+            {
+              "value": "20%",
+              "label": "Fewer misuse-related losses"
+            },
+            {
+              "value": "10-18%",
+              "label": "Improved residual value performance (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What High-Performing Leasing Businesses Optimize",
+          "bullets": [
+            "Top performers manage asset profitability with intelligence.",
+            "Focus on utilization by asset, cost-to-own, asset health and contract compliance.",
+            "Leasing performance is profitable utilization."
+          ],
+          "kpiStrip": [
+            "Utilization Rate",
+            "Asset ROI",
+            "Lifecycle Cost",
+            "Residual Value Risk"
+          ]
+        },
+        {
+          "title": "Where Intelligence Improves Operations",
+          "cards": [
+            {
+              "title": "Asset Utilization",
+              "text": "Put underused assets to work."
+            },
+            {
+              "title": "Lifecycle Optimization",
+              "text": "Reduce cost across ownership lifecycle."
+            },
+            {
+              "title": "Risk Monitoring",
+              "text": "Detect misuse and protect value."
+            },
+            {
+              "title": "Portfolio Profitability",
+              "text": "Understand which assets outperform."
+            }
+          ]
+        },
+        {
+          "title": "Industry Use Cases",
+          "cards": [
+            {
+              "title": "Utilization Optimization",
+              "text": "Analyze usage patterns, idle assets and imbalance. Outcome: increase productive deployment."
+            },
+            {
+              "title": "Asset Lifecycle Intelligence",
+              "text": "Track maintenance exposure, wear and health trends. Outcome: lower lifecycle costs."
+            },
+            {
+              "title": "Risk & Misuse Monitoring",
+              "text": "Detect unauthorized use, wear patterns and contract abuse risk. Outcome: protect value and reduce losses."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Asset Utilization Intelligence",
+              "href": "/solutions/asset-utilization"
+            },
+            {
+              "label": "Maintenance Intelligence",
+              "href": "/solutions/maintenance"
+            },
+            {
+              "label": "Compliance & Risk Analytics",
+              "href": "/solutions/compliance"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/industries/heavy-machinery",
+      "title": "Equipment Intelligence for Heavy Machinery",
+      "heroHeadline": "Increase Output While Reducing Downtime and Security Risk",
+      "subtitle": "Increase productive equipment hours, reduce downtime, and protect high-value machinery from misuse and loss.",
+      "proof": [
+        "18% higher machine utilization",
+        "25% lower unplanned downtime",
+        "30% faster theft response"
+      ],
+      "sections": [
+        {
+          "title": "Industry Challenges",
+          "bullets": [
+            "Equipment underutilized across sites.",
+            "Downtime disrupting operations.",
+            "Reactive maintenance driving costs.",
+            "High-value assets vulnerable to theft or misuse.",
+            "Limited visibility across mixed fleets and machines."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "18%",
+              "label": "Higher machine utilization"
+            },
+            {
+              "value": "25%",
+              "label": "Lower unplanned downtime"
+            },
+            {
+              "value": "30%",
+              "label": "Faster theft response"
+            },
+            {
+              "value": "15-20%",
+              "label": "Lower maintenance-related costs (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What High-Performing Operators Optimize",
+          "kpiStrip": [
+            "Utilization Hours",
+            "Uptime",
+            "Maintenance Risk",
+            "Asset Availability"
+          ]
+        },
+        {
+          "title": "Industry Use Cases",
+          "cards": [
+            {
+              "title": "Machine Utilization",
+              "text": "Analyze active vs idle hours and deployment imbalance. Outcome: increase productive equipment use."
+            },
+            {
+              "title": "Preventive Maintenance",
+              "text": "Monitor runtime, indicators and health trends. Outcome: lower downtime and repair costs."
+            },
+            {
+              "title": "Theft Prevention",
+              "text": "Detect unauthorized movement, geofence violations and off-hours activity. Outcome: reduce theft exposure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/industries/cold-chain-pharma",
+      "title": "Cold Chain Intelligence for Temperature-Sensitive Operations",
+      "heroHeadline": "Protect Product Integrity While Reducing Compliance Risk",
+      "subtitle": "Protect product integrity and reduce compliance risk across temperature-sensitive operations.",
+      "proof": [
+        "35% fewer temperature excursions",
+        "28% lower spoilage-related losses",
+        "50% faster compliance investigations"
+      ],
+      "sections": [
+        {
+          "title": "Industry Challenges",
+          "description": "One temperature event can become a major business loss.",
+          "bullets": [
+            "Temperature excursions threaten product integrity.",
+            "Compliance requirements continue to rise.",
+            "Chain-of-custody visibility is often fragmented.",
+            "Investigating incidents is slow and manual.",
+            "Spoilage, recalls and service failures carry major cost."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "35%",
+              "label": "Fewer temperature excursions"
+            },
+            {
+              "value": "28%",
+              "label": "Lower spoilage-related losses"
+            },
+            {
+              "value": "50%",
+              "label": "Faster compliance investigations"
+            },
+            {
+              "value": "20-30%",
+              "label": "Reduction in compliance-related incidents (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What High-Performing Cold Chains Optimize",
+          "kpiStrip": [
+            "Excursion Rate",
+            "Product Integrity Risk",
+            "Compliance Score",
+            "Cold Chain Uptime"
+          ]
+        },
+        {
+          "title": "Industry Use Cases",
+          "cards": [
+            {
+              "title": "Reefer Monitoring",
+              "text": "Monitor conditions, reefer performance and excursions. Outcome: reduce spoilage and service risk."
+            },
+            {
+              "title": "Chain-of-Custody Intelligence",
+              "text": "Track location plus condition, custody events and shipment integrity. Outcome: strengthen traceability."
+            },
+            {
+              "title": "Compliance Analytics",
+              "text": "Analyze excursion trends, audit evidence and exceptions. Outcome: reduce regulatory and quality risk."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Asset Utilization Intelligence",
+              "href": "/solutions/asset-utilization"
+            },
+            {
+              "label": "Compliance Analytics",
+              "href": "/solutions/compliance"
+            },
+            {
+              "label": "Trips & Delivery Optimization",
+              "href": "/solutions/trips-delivery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/roles",
+      "title": "Explore by Role",
+      "heroHeadline": "Role-Specific Decision Intelligence",
+      "sections": [
+        {
+          "title": "Role Pages",
+          "cards": [
+            {
+              "title": "Fleet Manager",
+              "href": "/roles/fleet-manager"
+            },
+            {
+              "title": "COO / Operations Director",
+              "href": "/roles/coo-operations-director"
+            },
+            {
+              "title": "Safety Manager",
+              "href": "/roles/safety-manager"
+            },
+            {
+              "title": "Finance Leader",
+              "href": "/roles/finance-leader"
+            }
+          ]
+        }
+      ],
+      "subtitle": "Choose your role to see the KPIs, decisions, and actions that matter most in your day-to-day work."
+    },
+    {
+      "slug": "/roles/fleet-manager",
+      "title": "Decision Intelligence for Fleet Managers",
+      "heroHeadline": "Control Costs and Improve Fleet Performance Every Day",
+      "subtitle": "Run daily operations with tighter cost control, stronger utilization, and faster decision-making.",
+      "proof": [
+        "15% lower fuel costs",
+        "22% higher asset utilization",
+        "18% less idle time"
+      ],
+      "sections": [
+        {
+          "title": "Role Challenges",
+          "description": "You are expected to improve performance from every angle.",
+          "bullets": [
+            "Fuel and operating costs keep rising.",
+            "Utilization gaps reduce productivity.",
+            "Driver performance impacts cost and risk.",
+            "Too much time spent reacting instead of optimizing.",
+            "Decisions often rely on incomplete visibility."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "15%",
+              "label": "Lower fuel costs"
+            },
+            {
+              "value": "22%",
+              "label": "Higher utilization"
+            },
+            {
+              "value": "18%",
+              "label": "Less idle time"
+            },
+            {
+              "value": "10-20%",
+              "label": "Lower operating cost per vehicle (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What High-Performing Fleet Managers Optimize",
+          "kpiStrip": [
+            "Fuel Cost per Vehicle",
+            "Utilization Rate",
+            "Driver Score",
+            "Idle Time"
+          ]
+        },
+        {
+          "title": "Where Intelligence Improves Decisions",
+          "cards": [
+            {
+              "title": "Cost Control",
+              "text": "Find and reduce operational leakage."
+            },
+            {
+              "title": "Utilization Management",
+              "text": "Increase productive use of assets."
+            },
+            {
+              "title": "Driver Performance",
+              "text": "Improve safety and efficiency."
+            },
+            {
+              "title": "Daily Fleet Operations",
+              "text": "Respond faster as issues emerge."
+            }
+          ]
+        },
+        {
+          "title": "Practical Use Cases",
+          "cards": [
+            {
+              "title": "Fuel & Cost Control",
+              "text": "Analyze fuel trends, idle waste and operating drivers. Outcome: lower fuel spend and improve margins."
+            },
+            {
+              "title": "Utilization Optimization",
+              "text": "Measure productive time, utilization gaps and idle-to-active ratio. Outcome: increase output from existing fleet."
+            },
+            {
+              "title": "Driver Performance",
+              "text": "Track driver scorecards, risk events and behavior trends. Outcome: safer, more efficient operations."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Asset Utilization Intelligence",
+              "href": "/solutions/asset-utilization"
+            },
+            {
+              "label": "Driver Safety & Risk Intelligence",
+              "href": "/solutions/driver-safety"
+            },
+            {
+              "label": "Trips & Delivery Optimization",
+              "href": "/solutions/trips-delivery"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/roles/coo-operations-director",
+      "title": "Decision Intelligence for COOs & Operations Leaders",
+      "heroHeadline": "Improve Margins While Increasing Operational Throughput",
+      "subtitle": "Scale throughput, protect margin, and improve service performance with data-driven operating decisions.",
+      "proof": [
+        "8-12% higher operating margin",
+        "14% greater fleet throughput",
+        "12% improved service-level performance"
+      ],
+      "sections": [
+        {
+          "title": "Role Challenges",
+          "description": "Growth pressure meets margin pressure.",
+          "bullets": [
+            "Margin pressure across the network.",
+            "Productivity varies across regions or teams.",
+            "Service levels impact retention and growth.",
+            "Capacity planning often relies on incomplete visibility.",
+            "Too many decisions are reactive."
+          ]
+        },
+        {
+          "title": "Measured Impact",
+          "metrics": [
+            {
+              "value": "8-12%",
+              "label": "Higher operating margin"
+            },
+            {
+              "value": "14%",
+              "label": "Greater fleet throughput"
+            },
+            {
+              "value": "12%",
+              "label": "Improved service levels"
+            },
+            {
+              "value": "10-18%",
+              "label": "Lower cost-to-serve (optional)"
+            }
+          ]
+        },
+        {
+          "title": "What High-Performing Operations Leaders Optimize",
+          "kpiStrip": [
+            "Operating Margin",
+            "Throughput",
+            "Cost-to-Serve",
+            "SLA Performance"
+          ]
+        },
+        {
+          "title": "Practical Use Cases",
+          "cards": [
+            {
+              "title": "Margin Intelligence",
+              "text": "Analyze cost-to-serve, margin by route/region and cost drivers. Outcome: improve operating margin."
+            },
+            {
+              "title": "Network Productivity",
+              "text": "Measure asset and route productivity, capacity utilization. Outcome: move more without adding assets."
+            },
+            {
+              "title": "Service-Level Intelligence",
+              "text": "Track SLA adherence, delivery performance and exceptions. Outcome: improve service and retention."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/roles/safety-manager",
+      "title": "Decision Intelligence for Safety Managers",
+      "heroHeadline": "Lower Risk and Strengthen Safety Performance at Scale",
+      "proof": [
+        "Fewer incidents",
+        "Lower claims exposure",
+        "Better coaching outcomes"
+      ],
+      "sections": [
+        {
+          "title": "Role Challenge",
+          "bullets": [
+            "Unsafe behavior patterns",
+            "Late intervention",
+            "Compliance pressure"
+          ]
+        }
+      ],
+      "subtitle": "Improve safety outcomes with proactive risk monitoring, coaching priorities, and evidence-based decisions."
+    },
+    {
+      "slug": "/roles/finance-leader",
+      "title": "Decision Intelligence for Finance Leaders",
+      "heroHeadline": "Connect Operational Signals to Margin and ROI Decisions",
+      "proof": [
+        "Lower cost-to-serve",
+        "Higher asset ROI",
+        "Clearer margin visibility"
+      ],
+      "sections": [
+        {
+          "title": "Role Challenge",
+          "bullets": [
+            "Limited trip-level economics",
+            "Hidden leakage",
+            "Uncertain capex timing"
+          ]
+        }
+      ],
+      "subtitle": "Connect operational performance to margin, ROI, and investment decisions with clear financial visibility."
+    },
+    {
+      "slug": "/tools",
+      "title": "Explore Tools",
+      "heroHeadline": "Choose the Right Analytics Delivery Model",
+      "sections": [
+        {
+          "title": "Tool Pages",
+          "cards": [
+            {
+              "title": "Dashboard Studio",
+              "href": "/tools/dashboard-studio"
+            },
+            {
+              "title": "Open BI Ecosystem",
+              "href": "/tools/third-party-bi"
+            },
+            {
+              "title": "Custom Apps",
+              "href": "/tools/custom-apps"
+            }
+          ]
+        }
+      ],
+      "subtitle": "Pick the right analytics model for your team, from self-service dashboards to open BI and decision apps."
+    },
+    {
+      "slug": "/tools/dashboard-studio",
+      "title": "Dashboard Studio",
+      "heroHeadline": "Build Fleet Decision Center with Dashboard Studio",
+      "subtitle": "Build and share operational dashboards, KPI scorecards, and reports without launching a full BI project.",
+      "ctas": [
+        {
+          "label": "See Dashboard Studio in Action",
+          "href": "#cta"
+        },
+        {
+          "label": "Book a Demo",
+          "href": "#cta"
+        }
+      ],
+      "proof": [
+        "Self-service analytics",
+        "Template-ready dashboards",
+        "Embedded inside Navixy"
+      ],
+      "sections": [
+        {
+          "title": "Key Challenge",
+          "bullets": [
+            "Teams need analytics, but not another BI project.",
+            "Avoid complex BI deployments and long dashboard projects.",
+            "Avoid analyst bottlenecks and static spreadsheet reporting."
+          ]
+        },
+        {
+          "title": "What Teams Gain",
+          "metrics": [
+            {
+              "value": "Minutes",
+              "label": "Build dashboards in minutes"
+            },
+            {
+              "value": "Ready-made",
+              "label": "Use fleet templates"
+            },
+            {
+              "value": "Governed",
+              "label": "Share analytics across teams"
+            }
+          ]
+        },
+        {
+          "title": "What You Can Build",
+          "cards": [
+            {
+              "title": "KPI Dashboards",
+              "text": "Monitor utilization, fuel, safety, maintenance and service metrics."
+            },
+            {
+              "title": "Role-Based Dashboards",
+              "text": "Tailor views for fleet managers, dispatchers, executives and customers."
+            },
+            {
+              "title": "Operational Scorecards",
+              "text": "Track KPI performance against thresholds."
+            },
+            {
+              "title": "Visual Reports",
+              "text": "Combine charts, stat tiles and tables into shareable reports."
+            }
+          ]
+        },
+        {
+          "title": "Embedded Governed Self-Service Analytics",
+          "bullets": [
+            "Power users define KPIs once and build reusable decision views.",
+            "Business users explore dashboards safely, filter and drill without SQL.",
+            "Built for self-service and governance at scale."
+          ],
+          "kpiStrip": [
+            "Fuel dashboards",
+            "Maintenance dashboards",
+            "Safety scorecards",
+            "Geospatial views",
+            "SLA and utilization dashboards"
+          ]
+        },
+        {
+          "title": "Practical Use Cases",
+          "cards": [
+            {
+              "title": "Fleet Command Center",
+              "text": "Monitor KPIs, exceptions, utilization and operational health. Outcome: one source of truth."
+            },
+            {
+              "title": "Executive KPI Cockpit",
+              "text": "Track cost metrics, productivity and service. Outcome: faster executive decisions."
+            },
+            {
+              "title": "Customer-Facing Analytics",
+              "text": "Deliver branded shared reporting and transparency. Outcome: differentiated service."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Third-Party BI Tools",
+              "href": "/tools/third-party-bi",
+              "text": "Connect Microsoft, Superset and Grafana."
+            },
+            {
+              "label": "Custom Apps",
+              "href": "/tools/custom-apps",
+              "text": "Extend intelligence into purpose-built workflows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "/tools/third-party-bi",
+      "title": "Open BI Ecosystem",
+      "heroHeadline": "Connect Your Data to the BI Stack You Already Use",
+      "proof": [
+        "Analytics-ready data access",
+        "Works with your BI stack",
+        "No vendor lock-in"
+      ],
+      "ctas": [
+        {
+          "label": "Explore BI Connectivity",
+          "href": "#cta"
+        },
+        {
+          "label": "Book a Demo",
+          "href": "#cta"
+        }
+      ],
+      "sections": [
+        {
+          "title": "The Challenge",
+          "bullets": [
+            "Traditional telematics APIs were not built for analytics.",
+            "Raw data is fragmented and heavy to transform.",
+            "Operational teams get stuck between telematics and data engineering."
+          ]
+        },
+        {
+          "title": "What Teams Gain",
+          "metrics": [
+            {
+              "value": "Reuse",
+              "label": "Use existing BI investments"
+            },
+            {
+              "value": "Faster",
+              "label": "Accelerate analytics delivery"
+            },
+            {
+              "value": "Scale",
+              "label": "Support enterprise decision workflows"
+            }
+          ]
+        },
+        {
+          "title": "Direct Analytics-Ready Data Access",
+          "kpiStrip": [
+            "Microsoft",
+            "Apache Superset",
+            "Grafana",
+            "Tableau",
+            "Metabase"
+          ]
+        },
+        {
+          "title": "What You Can Build",
+          "cards": [
+            {
+              "title": "Executive Reporting",
+              "text": "Margin reporting, cost analysis and performance reporting."
+            },
+            {
+              "title": "Embedded BI",
+              "text": "Embedded dashboards, shared portals and monetized analytics services."
+            },
+            {
+              "title": "Operational Dashboards",
+              "text": "Utilization, cost control and service-level monitoring."
+            },
+            {
+              "title": "Advanced SQL Analytics",
+              "text": "Custom KPIs, modeling, predictive analytics and multi-source analysis."
+            }
+          ]
+        },
+        {
+          "title": "Why Open BI Matters",
+          "bullets": [
+            "Use familiar tools.",
+            "Scale advanced analytics faster.",
+            "Avoid vendor lock-in.",
+            "Support enterprise data strategies."
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Dashboard Studio",
+              "href": "/tools/dashboard-studio"
+            },
+            {
+              "label": "Custom Apps",
+              "href": "/tools/custom-apps"
+            }
+          ]
+        }
+      ],
+      "subtitle": "Bring telematics intelligence into your existing BI stack for faster analytics and better decision workflows."
+    },
+    {
+      "slug": "/tools/custom-apps",
+      "title": "Operational Apps Built on Decision Intelligence",
+      "heroHeadline": "Turn Intelligence into Operational Decisions with Purpose-Built Apps",
+      "proof": [
+        "Faster time-to-value",
+        "Purpose-built workflows",
+        "Operational decisions in action"
+      ],
+      "ctas": [
+        {
+          "label": "Explore Apps",
+          "href": "#cta"
+        },
+        {
+          "label": "Book a Demo",
+          "href": "#cta"
+        }
+      ],
+      "sections": [
+        {
+          "title": "The Challenge",
+          "bullets": [
+            "Data alone rarely changes operations.",
+            "Valuable data exists but stays underused.",
+            "Dashboards show signals, but do not drive action.",
+            "Teams need solutions for specific operational workflows."
+          ]
+        },
+        {
+          "title": "What Teams Gain",
+          "metrics": [
+            {
+              "value": "Faster",
+              "label": "Deploy operational apps quickly"
+            },
+            {
+              "value": "Accelerate",
+              "label": "Improve time-to-value"
+            },
+            {
+              "value": "Repeatable",
+              "label": "Support repeatable decision workflows"
+            }
+          ]
+        },
+        {
+          "title": "Purpose-Built Decision Apps",
+          "cards": [
+            {
+              "title": "Sensoriqua",
+              "text": "Sensor intelligence, condition monitoring, cold chain visibility, exception detection. Outcomes: reduce condition risk and protect sensitive assets."
+            },
+            {
+              "title": "Trips Intelli",
+              "text": "Route intelligence, delivery optimization, trip profitability. Outcomes: improve route performance and margins."
+            }
+          ]
+        },
+        {
+          "title": "Featured App Highlights",
+          "kpiStrip": [
+            "Condition Intelligence",
+            "Cold Chain Monitoring",
+            "Trip Profitability",
+            "Route Intelligence",
+            "Operational Exception Management"
+          ]
+        },
+        {
+          "title": "Where Decision Apps Add Value",
+          "cards": [
+            {
+              "title": "Sensor-Driven Operations",
+              "text": "Environmental sensors, cold chain assets, equipment condition."
+            },
+            {
+              "title": "Trip & Route Intelligence",
+              "text": "Route performance, delivery optimization, margin per trip."
+            },
+            {
+              "title": "Custom Operational Workflows",
+              "text": "Exception workflows, industry-specific intelligence apps, custom use cases."
+            }
+          ]
+        },
+        {
+          "title": "Why Decision Apps vs Dashboards",
+          "cards": [
+            {
+              "title": "Dashboards",
+              "text": "Visibility, monitoring, analysis."
+            },
+            {
+              "title": "Decision Apps",
+              "text": "Operational workflows, guided decisions, action support."
+            }
+          ]
+        },
+        {
+          "title": "Practical Use Cases",
+          "cards": [
+            {
+              "title": "Sensor Intelligence",
+              "text": "Condition-based decisions at scale."
+            },
+            {
+              "title": "Cold Chain Intelligence",
+              "text": "Reduce compliance and product risk."
+            },
+            {
+              "title": "Route & Trip Optimization",
+              "text": "Improve profitability and delivery performance."
+            }
+          ]
+        },
+        {
+          "title": "Continue Exploring",
+          "relatedLinks": [
+            {
+              "label": "Dashboard Studio",
+              "href": "/tools/dashboard-studio"
+            },
+            {
+              "label": "Third-Party BI",
+              "href": "/tools/third-party-bi"
+            }
+          ]
+        }
+      ],
+      "subtitle": "Deploy purpose-built operational apps that turn insights into repeatable actions across teams."
+    }
+  ]
+}

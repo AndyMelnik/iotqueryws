@@ -32,7 +32,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <body
-        className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased grid-bg noise-overlay`}
+        className={`${spaceGrotesk.variable} ${jetbrainsMono.variable} antialiased reference-bg`}
         suppressHydrationWarning
       >
         <ScrollToTop />

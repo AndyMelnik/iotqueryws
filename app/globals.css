@@ -120,6 +120,36 @@
   opacity: 0.18;
 }
 
+/* Reference page-like background */
+.reference-bg {
+  position: relative;
+  background-color: #01030c;
+}
+
+.reference-bg::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background-image: url("/page-bg-reference.png");
+  background-size: cover;
+  background-position: center top;
+  opacity: 0.32;
+}
+
+.reference-bg::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  background:
+    radial-gradient(circle at 50% 30%, rgba(179, 0, 255, 0.14) 0%, transparent 45%),
+    radial-gradient(circle at 70% 40%, rgba(0, 240, 255, 0.11) 0%, transparent 42%),
+    linear-gradient(180deg, rgba(1, 3, 12, 0.35) 0%, rgba(1, 3, 12, 0.9) 100%);
+}
+
 /* Glass card */
 .glass {
   background: rgba(100, 150, 255, 0.05);
