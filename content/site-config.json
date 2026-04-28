@@ -31,7 +31,7 @@
       "href": "/industries",
       "children": [
         {
-          "label": "Transport",
+          "label": "Transport & Logistics",
           "href": "/industries/transport-logistics"
         },
         {
@@ -41,10 +41,6 @@
         {
           "label": "Heavy Machinery",
           "href": "/industries/heavy-machinery"
-        },
-        {
-          "label": "Cold Chain",
-          "href": "/industries/cold-chain-pharma"
         }
       ]
     },
@@ -57,8 +53,8 @@
           "href": "/roles/fleet-manager"
         },
         {
-          "label": "COO",
-          "href": "/roles/coo-operations-director"
+          "label": "Data Analyst",
+          "href": "/roles/data-analyst"
         },
         {
           "label": "Safety Manager",
@@ -89,8 +85,8 @@
       ]
     },
     {
-      "label": "Price",
-      "href": "#price"
+      "label": "Pricing",
+      "href": "/pricing"
     }
   ],
   "pages": [
@@ -102,16 +98,16 @@
       "heroRotatingPhrases": [
         "Better Decisions",
         "Lower Costs",
-        "Higher Fleet Performance"
+        "Fleet performance"
       ],
-      "subtitle": "Operational intelligence that helps fleet teams cut costs, improve service, and scale performance with confidence.",
+      "subtitle": "Connect GPS, trips, drivers, assets, and sensor data in one place to cut costs, improve service, and stay ahead of risk.",
       "ctas": [
         {
-          "label": "Explore Solutions",
-          "href": "/solutions"
+          "label": "Get Access",
+          "href": "#cta"
         },
         {
-          "label": "Book Demo",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
@@ -127,9 +123,9 @@
               "href": "/roles/fleet-manager"
             },
             {
-              "title": "Operations Leader",
+              "title": "Data Analyst",
               "text": "Scale throughput, protect margin, and improve service consistency across the network.",
-              "href": "/roles/coo-operations-director"
+              "href": "/roles/data-analyst"
             },
             {
               "title": "Safety Manager",
@@ -237,11 +233,6 @@
               "title": "Heavy Machinery",
               "text": "Core metrics: machine utilization, downtime, preventive maintenance risk.",
               "href": "/industries/heavy-machinery"
-            },
-            {
-              "title": "Cold Chain",
-              "text": "Core metrics: excursion rate, compliance score, condition assurance.",
-              "href": "/industries/cold-chain-pharma"
             },
             {
               "title": "Leasing",
@@ -352,110 +343,127 @@
     {
       "slug": "/solutions/asset-utilization",
       "title": "Asset Utilization Intelligence",
-      "heroHeadline": "Get More Productivity from Every Asset",
-      "subtitle": "Increase productive asset time, reduce idle capacity, and unlock output without adding fleet.",
+      "heroHeadline": "Turn idle fleet capacity into productive output",
+      "heroIntroLine": "Turn idle assets",
+      "heroRotatingPhrases": [
+        "Into higher utilization",
+        "Into lower cost per kilometer",
+        "Into measurable daily productivity"
+      ],
+      "subtitle": "See utilization, idle time, engine hours, and location in one view so you can redeploy underused assets, relieve overused ones, and stop paying for equipment that sits.",
       "ctas": [
         {
-          "label": "See it in action",
+          "label": "Get Access",
           "href": "#cta"
         },
         {
-          "label": "Talk to an expert",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
-      "proof": [
-        "+22% asset utilization",
-        "-15% empty mileage",
-        "-18% idle time"
-      ],
+      "proof": [],
       "sections": [
         {
-          "title": "Key Challenge",
-          "description": "Capacity is constrained. Assets still sit idle.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Most fleets do not have a utilization problem — they have a visibility problem.",
-            "Assets underused while demand grows.",
-            "Excess idle or dwell time.",
-            "Empty miles eroding margins.",
-            "Too much capital tied in underperforming assets."
+            "Utilization looks fine in reports, but idle share stays high and cost per km keeps rising.",
+            "Underused assets are found too late because active/inactive and long-dwell signals are not monitored daily.",
+            "Mileage, engine hours, and duty status live in separate reports, so relocation decisions are delayed.",
+            "Non-contractual usage is suspected, but there is no clear contract-vs-actual evidence by asset.",
+            "Search time and queue time are not measured consistently, so capacity loss stays unclear."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "22%",
-              "label": "Higher asset utilization"
-            },
-            {
-              "value": "15%",
-              "label": "Less empty mileage"
-            },
-            {
-              "value": "18%",
-              "label": "Lower idle time"
-            },
-            {
-              "value": "10-20%",
-              "label": "Delay in new asset purchases (optional)"
+              "title": "Utilization Control You Can Defend",
+              "subtitle": "Core operating signals that help teams recover lost capacity before it impacts cost and service",
+              "stats": [
+                {
+                  "value": "21%",
+                  "label": "Higher productive asset utilization"
+                },
+                {
+                  "value": "17%",
+                  "label": "Lower idle share across active fleet"
+                },
+                {
+                  "value": "72h",
+                  "label": "Earlier detection of inactive assets"
+                }
+              ],
+              "context": [
+                "Track active vs inactive assets by depot and shift.",
+                "Watch productive-hours share against idle ratio daily.",
+                "Flag underused and long-dwell assets for relocation.",
+                "Compare contract usage with real usage by asset.",
+                "Escalate stale-heartbeat units before planning breaks."
+              ]
             }
           ]
         },
         {
-          "title": "What High Performance Looks Like",
-          "bullets": [
-            "Know which assets are over- or under-utilized.",
-            "Know where time is lost between jobs.",
-            "Know when assets should be redeployed.",
-            "Know how to increase output without adding fleet."
-          ],
-          "kpiStrip": [
-            "Utilization Rate",
-            "Productive Hours",
-            "Idle-to-Active Ratio",
-            "Revenue per Asset"
-          ]
-        },
-        {
-          "title": "How It Works",
-          "description": "Utilization intelligence built from operational data.",
-          "bullets": [
-            "Correlate trips, idle time, dwell time, assignments, route activity and asset availability.",
-            "Turn raw telematics into decisions on: use more, move differently, right-size fleet."
-          ]
-        },
-        {
-          "title": "Practical Use Cases",
+          "title": "From fragmented fleet signals to one utilization decision model",
           "cards": [
             {
-              "title": "Fleet Utilization Benchmarking",
-              "text": "Compare vehicles, routes, teams or depots. Find underperforming assets, capacity gaps and utilization imbalance. Outcome: improve fleet productivity without adding assets."
+              "title": "1) Standardize baseline and custom KPIs",
+              "text": "Start with productive hours, engine hours, mileage, idle %, and active/inactive split. Add custom metrics: service-to-idle ratio, days-to-locate, queue time, and contract-vs-actual usage."
             },
             {
-              "title": "Idle Reduction",
-              "text": "Detect excess idle, long dwell times and unproductive route patterns. Outcome: reduce wasted hours and fuel."
+              "title": "2) Detect underused, overused, and missing assets daily",
+              "text": "Rules and anomaly checks highlight idle over 72h, long dwell in depot, repeated idle without workload, and assets moving outside approved zones."
             },
             {
-              "title": "Asset Redeployment",
-              "text": "Rebalance fleet allocation, delay capex and support expansion planning. Outcome: more output from existing assets."
+              "title": "3) Convert signals into action decisions",
+              "text": "Planner chooses relocate, retire, rental substitution, billing correction, or process redesign by yard/shift based on impact and urgency."
             }
           ]
         },
         {
-          "title": "Continue Exploring",
-          "relatedLinks": [
+          "title": "Use cases and decission patterns",
+          "cards": [
             {
-              "label": "Trips & Delivery Optimization",
-              "href": "/solutions/trips-delivery"
+              "title": "Public or enterprise fleet right-sizing",
+              "text": "Problem: Underused vehicles stay in service while budget requests for new assets continue.||Solution: Use odometer, engine hours, duty status, and equipment usage to identify structurally idle units and reassign or retire them before the next capex cycle."
             },
             {
-              "label": "Maintenance Intelligence",
-              "href": "/solutions/maintenance"
+              "title": "Rental and mixed-fleet optimization",
+              "text": "Problem: Portfolio-level averages hide non-contractual usage and margin leakage.||Solution: Compare productive hours, uptime, and contract-vs-actual behavior to relocate assets and apply chargeback where usage exceeds contract terms."
             },
             {
-              "label": "Cost Reduction Analytics",
-              "href": "/solutions"
+              "title": "Container and yard asset control",
+              "text": "Problem: Unauthorized movement and long dwell time remain invisible until claims or service failure.||Solution: Combine location, tamper/open events, and heartbeat freshness to trigger recovery actions, claims support, and detention-cost reduction."
+            }
+          ]
+        },
+        {
+          "title": "What's available in IoT Query for fleet operations today",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Fleet Utilization Dashboard",
+              "text": "Productive hours, idle-to-active ratio, active vs inactive assets, underutilized %, and utilization trend by region/depot."
+            },
+            {
+              "title": "Fleet Performance Dashboard",
+              "text": "Cost per km/per hour, fuel consumption per 100 km, idle time by driver/region, on-time performance, and active movement status."
+            },
+            {
+              "title": "Fleet Anomaly Monitor",
+              "text": "Same-day detection of fuel spikes, unusual idle patterns, long dwell in depot, stale heartbeat, and unauthorized movement outside approved zones."
+            },
+            {
+              "title": "Fleet Reports Dashboard",
+              "text": "Weekly/monthly operational review outputs: utilization, miles per vehicle/day, inactive assets, exception tables, and reporting-efficiency indicators."
+            },
+            {
+              "title": "Trips Dashboard (Yesterday)",
+              "text": "Previous-day route adherence, stops, distance, time windows, and cycle productivity to support next-day dispatch decisions."
+            },
+            {
+              "title": "Vehicle Mileage Dashboard",
+              "text": "Mileage accumulation, lifecycle usage trend, and active/inactive split for right-sizing, retirement, and rental substitution decisions."
             }
           ]
         }
@@ -464,110 +472,123 @@
     {
       "slug": "/solutions/trips-delivery",
       "title": "Delivery & Trip Performance Intelligence",
-      "heroHeadline": "Improve Delivery Performance Without Adding Complexity",
-      "subtitle": "Improve route efficiency, on-time delivery, and service reliability while lowering delivery cost.",
+      "heroHeadline": "Turn trip execution into measurable delivery reliability",
+      "heroIntroLine": "Turn trip data",
+      "heroRotatingPhrases": [
+        "into planned-vs-actual control",
+        "into higher OTIF performance",
+        "into faster exception response"
+      ],
+      "subtitle": "Compare planned versus actual routes, stop times, ETAs, and proof of service so dispatch can fix issues early and improve delivery reliability.",
       "ctas": [
         {
-          "label": "See it in action",
+          "label": "Get Access",
           "href": "#cta"
         },
         {
-          "label": "Talk to an expert",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
-      "proof": [
-        "+18% route efficiency",
-        "+12% on-time delivery",
-        "-14% cost per delivery"
-      ],
+      "proof": [],
       "sections": [
         {
-          "title": "Key Challenge",
-          "description": "More trips do not always mean better performance.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Inefficient routes.",
-            "Empty or unproductive miles.",
-            "Poor ETA reliability.",
-            "Service exceptions and missed SLAs.",
-            "Result: higher costs and lower service quality."
+            "Planned route and actual progress diverge, while missed checkpoints are found too late.",
+            "ETA shifts and long dwell at loading points appear only after SLA risk is already high.",
+            "Driver assignment and login quality are inconsistent, so accountability for delays is weak.",
+            "Cold-chain events are tracked separately from trip execution, slowing root-cause decisions.",
+            "Dispatch teams still reconcile telematics with TMS/ERP manually instead of acting immediately."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "18%",
-              "label": "Higher route efficiency"
-            },
-            {
-              "value": "12%",
-              "label": "Better on-time delivery"
-            },
-            {
-              "value": "14%",
-              "label": "Lower delivery cost"
-            },
-            {
-              "value": "20%",
-              "label": "Fewer service exceptions (optional)"
+              "title": "Trip & Delivery Control You Can Defend",
+              "subtitle": "Three execution facts and five operating signals that convert trip telemetry into daily delivery decisions",
+              "stats": [
+                {
+                  "value": "80%",
+                  "label": "Improvement potential in driver assignment quality"
+                },
+                {
+                  "value": "10%",
+                  "label": "Fuel savings potential from assignment and idling discipline"
+                },
+                {
+                  "value": "23%",
+                  "label": "Delivery efficiency gain from strict route-control workflows"
+                }
+              ],
+              "context": [
+                "Track planned vs actual sequence and route deviations in one control layer.",
+                "Monitor ETA confidence and dwell above SLA to protect OTIF.",
+                "Escalate assignment failures and unlogged sessions in real time.",
+                "Link reefer temperature and door events to trip milestones.",
+                "Push exceptions to TMS/ERP queues to cut manual dispatch work."
+              ]
             }
           ]
         },
         {
-          "title": "What Good Looks Like",
-          "bullets": [
-            "Know which routes underperform.",
-            "Know where delays originate.",
-            "Know which trips lose margin.",
-            "Know how to improve service without adding vehicles."
-          ],
-          "kpiStrip": [
-            "On-Time Delivery",
-            "Cost per Delivery",
-            "Route Efficiency",
-            "Trip Profitability"
-          ]
-        },
-        {
-          "title": "How It Works",
-          "description": "Turn trip data into delivery decisions.",
-          "bullets": [
-            "Correlate trips, stops, route adherence, ETA variance, dwell time and delivery events.",
-            "Use operational intelligence to optimize routing, dispatching, scheduling and service execution."
-          ]
-        },
-        {
-          "title": "Practical Use Cases",
+          "title": "From trip signal noise to a delivery decision model",
           "cards": [
             {
-              "title": "Route Efficiency Optimization",
-              "text": "Find route deviations, empty miles and inefficient sequences. Outcome: reduce cost per trip."
+              "title": "1) Normalize plan, progress, and integrity data",
+              "text": "Ingest route plan, stop list, time windows, location trace, dwell, assignment state, temperature, and door events under one trip ID."
             },
             {
-              "title": "On-Time Delivery & SLA Performance",
-              "text": "Track ETA accuracy, late arrivals and missed windows. Outcome: improve customer service performance."
+              "title": "2) Detect critical exceptions while the trip is active",
+              "text": "Flag missed checkpoint, ETA shift > threshold, dwell > SLA, route deviation, driver-not-logged-in, and reefer threshold breach."
             },
             {
-              "title": "Trip Profitability Analysis",
-              "text": "Analyze cost per route, revenue per trip and service cost drivers. Outcome: improve trip economics."
+              "title": "3) Orchestrate action across dispatcher and back-office",
+              "text": "Send alerts to dispatch, create TMS/ERP issues automatically, and apply correction before SLA or product quality is lost."
             }
           ]
         },
         {
-          "title": "Continue Exploring",
-          "relatedLinks": [
+          "title": "Use cases and decission patterns",
+          "cards": [
             {
-              "label": "Asset Utilization Intelligence",
-              "href": "/solutions/asset-utilization"
+              "title": "Assignment quality and fuel discipline",
+              "text": "Problem: Driver login mismatch and idling hide true trip accountability and inflate fuel cost.||Solution: Enforce assignment logic, combine idling and driver-behavior signals, and use route-level accountability reporting."
             },
             {
-              "label": "Driver Safety",
-              "href": "/solutions/driver-safety"
+              "title": "ERP-synced trip execution control",
+              "text": "Problem: Trip plans live in one system while telematics events live in another, delaying response to deviations.||Solution: Sync plan/checkpoints with telematics, automate trip-event transfer to ERP/TMS, and trigger same-day deviation handling."
             },
             {
-              "label": "Maintenance Intelligence",
-              "href": "/solutions/maintenance"
+              "title": "Cold-chain delivery integrity",
+              "text": "Problem: Temperature excursions and door events are reviewed after spoilage risk and claim exposure.||Solution: Monitor temperature and door integrity during transit, link events to trip milestones, and build audit-ready evidence for claims."
+            }
+          ]
+        },
+        {
+          "title": "What's available in IoT Query for trip and delivery operations today",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Trips Dashboard (Yesterday)",
+              "text": "Planned vs actual sequence, route adherence, stop timing, dwell, distance, and trip completion status by driver and vehicle."
+            },
+            {
+              "title": "Fleet Performance Dashboard",
+              "text": "Cost per trip, fuel per trip, on-time delivery indicators, and execution variance by route, region, and vehicle class."
+            },
+            {
+              "title": "Fleet Anomaly Monitor",
+              "text": "Route deviation log, missed checkpoints, assignment failures, and unusual idling patterns surfaced the same day."
+            },
+            {
+              "title": "Fleet Reports Dashboard",
+              "text": "Weekly and monthly delivery review outputs for SLA tracking, exception trend analysis, and management sign-off."
+            },
+            {
+              "title": "Cold-chain Integrity Layer",
+              "text": "Trip-level temperature profile, excursion queue, and door-open event journal for quality assurance workflows."
             }
           ]
         }
@@ -576,110 +597,123 @@
     {
       "slug": "/solutions/driver-safety",
       "title": "Driver Safety & Risk Intelligence",
-      "heroHeadline": "Reduce Risk by Improving Driver Safety",
-      "subtitle": "Reduce incidents, improve driver behavior, and lower claims exposure with proactive safety intelligence.",
+      "heroHeadline": "Turn safety signals into measurable risk and claim reduction",
+      "heroIntroLine": "Turn safety telemetry",
+      "heroRotatingPhrases": [
+        "into proactive coaching decisions",
+        "into lower claims and collision costs",
+        "into faster exoneration and response"
+      ],
+      "subtitle": "Turn speeding, harsh events, and incident footage into fair scoring, timely coaching, and faster review before risk turns into crashes, claims, or lost time.",
       "ctas": [
         {
-          "label": "See it in action",
+          "label": "Get Access",
           "href": "#cta"
         },
         {
-          "label": "Talk to an expert",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
-      "proof": [
-        "-32% safety events",
-        "-18% insurance claims",
-        "+24% safer driving score improvement"
-      ],
+      "proof": [],
       "sections": [
         {
-          "title": "Key Challenge",
-          "description": "Unsafe behavior creates hidden losses.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Risk often shows up before accidents happen.",
-            "Speeding and harsh driving.",
-            "Preventable incidents.",
-            "Rising insurance costs.",
-            "Reactive safety management."
+            "Harsh events are counted, but managers still lack context to assign the right action quickly.",
+            "Driver trust drops when scoring logic feels opaque and coaching looks like punishment.",
+            "Claims and exoneration decisions are delayed because evidence is split across tools.",
+            "Alert overload creates noise, so teams react to volume instead of severity and recurrence.",
+            "Safety and dispatch controls are disconnected, so route risk is managed too late."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "32%",
-              "label": "Fewer safety events"
-            },
-            {
-              "value": "18%",
-              "label": "Lower insurance claims"
-            },
-            {
-              "value": "24%",
-              "label": "Improvement in driver safety scores"
-            },
-            {
-              "value": "15-20%",
-              "label": "Lower accident-related costs (optional)"
+              "title": "Safety Control You Can Defend",
+              "subtitle": "Three evidence-backed outcomes and five operating signals that turn event streams into measurable safety decisions",
+              "stats": [
+                {
+                  "value": "83%",
+                  "label": "Reduction benchmark in preventable DOT crashes"
+                },
+                {
+                  "value": "58%",
+                  "label": "Collision reduction benchmark with coaching workflows"
+                },
+                {
+                  "value": "50%",
+                  "label": "Accident reduction benchmark with dashcam evidence"
+                }
+              ],
+              "context": [
+                "Prioritize distracted driving, phone use, seatbelt-off, speeding, and fatigue by severity and recurrence.",
+                "Score risk per driver and route window, then route events to coaching or claims/exoneration branch.",
+                "Capture assigned action, coaching date, acknowledgement, and post-coaching recurrence trend.",
+                "Use video and event context to resolve incidents faster and protect non-fault drivers.",
+                "Track claims cycle-time, exoneration rate, and repeat offender dynamics in one safety loop."
+              ]
             }
           ]
         },
         {
-          "title": "What Good Looks Like",
-          "bullets": [
-            "Know which behaviors drive risk.",
-            "Know which drivers need coaching.",
-            "Know where incidents are likely to happen.",
-            "Know how safety performance improves over time."
-          ],
-          "kpiStrip": [
-            "Driver Risk Score",
-            "Safety Events",
-            "Claims Exposure",
-            "Coaching Effectiveness"
-          ]
-        },
-        {
-          "title": "How It Works",
-          "description": "Turn driver data into risk decisions.",
-          "bullets": [
-            "Correlate driving events, speeding patterns, harsh braking/acceleration, route context, incident trends and driver history.",
-            "Use safety intelligence to reduce risk, coach proactively and improve policy compliance."
-          ]
-        },
-        {
-          "title": "Practical Use Cases",
+          "title": "From event counts to risk decisions that reduce loss",
           "cards": [
             {
-              "title": "Driver Scoring",
-              "text": "Track unsafe behaviors, driver trends and team risk. Outcome: prioritize intervention where it matters."
+              "title": "1) Detect and classify safety-critical events",
+              "text": "Combine rules and video context for speeding, harsh maneuvers, distraction, seatbelt non-use, and collision proxies with one severity model."
             },
             {
-              "title": "Driver Coaching",
-              "text": "Coach proactively, reinforce safe habits and reduce repeat events. Outcome: improve safety performance over time."
+              "title": "2) Route each event into the right workflow",
+              "text": "Send evidence-backed incidents to claims/exoneration and behavioral patterns to coaching queue with clear owner, SLA, and escalation path."
             },
             {
-              "title": "Risk Analytics",
-              "text": "Analyze high-risk patterns, incident predictors and claims trends. Outcome: lower claims and reduce operational risk."
+              "title": "3) Close the loop with measurable improvement",
+              "text": "Record coaching completion and driver acknowledgement, then monitor recurrence, claims outcomes, and risk score movement over time."
             }
           ]
         },
         {
-          "title": "Continue Exploring",
-          "relatedLinks": [
+          "title": "Use cases and decission patterns",
+          "cards": [
             {
-              "label": "Compliance Analytics",
-              "href": "/solutions/compliance"
+              "title": "Coaching-first safety transformation",
+              "text": "Problem: Event counting alone does not reduce incidents when feedback is delayed and generic.||Solution: Launch daily/weekly review by behavior segments, assign targeted coaching, and track recurrence after each intervention."
             },
             {
-              "label": "Maintenance Intelligence",
-              "href": "/solutions/maintenance"
+              "title": "Claims defense and driver exoneration",
+              "text": "Problem: Claims teams spend days reconstructing incidents with weak evidence quality.||Solution: Use dashcam footage plus event metadata as one evidence base, split exoneration branch from coaching branch, and reduce dispute cycle-time."
             },
             {
-              "label": "Asset Utilization",
-              "href": "/solutions/asset-utilization"
+              "title": "Safety in remote and severe environments",
+              "text": "Problem: In low-connectivity regions, delayed alerts turn manageable risk into major incidents.||Solution: Configure priority notifications for severe conditions, support remote-area response patterns, and focus operations on time-to-intervention."
+            }
+          ]
+        },
+        {
+          "title": "What's available in IoT Query for fleet safety today",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Driver Risk Leaderboard",
+              "text": "Risk ranking by severity-weighted events, recurrence, and trend movement across drivers, depots, and route groups."
+            },
+            {
+              "title": "Unsafe Event Heatmap",
+              "text": "Location/time concentration of distraction, speeding, harsh behavior, and seatbelt non-use for hotspot-level prevention planning."
+            },
+            {
+              "title": "Coaching Operations Queue",
+              "text": "Open coaching tasks, due dates, completion status, and post-coaching recurrence for positive safety loop execution."
+            },
+            {
+              "title": "Claims & Exoneration Monitor",
+              "text": "Incident evidence status, exoneration outcomes, and claims cycle-time with branch-level workload visibility."
+            },
+            {
+              "title": "Policy Breach Alert Center",
+              "text": "High-priority alerts for distracted driving, mobile phone use, fatigue, seatbelt-off, collision detected, and repeat offender thresholds."
             }
           ]
         }
@@ -688,44 +722,252 @@
     {
       "slug": "/solutions/maintenance",
       "title": "Maintenance Intelligence",
-      "heroHeadline": "Reduce Unplanned Downtime with Predictive Maintenance Decisions",
-      "proof": [
-        "Lower repair cost",
-        "Higher fleet availability",
-        "Earlier failure detection"
+      "heroHeadline": "Turn maintenance data into higher uptime and lower repair volatility",
+      "heroIntroLine": "Turn maintenance telemetry",
+      "heroRotatingPhrases": [
+        "into preventive work-order discipline",
+        "into fewer repeated shop visits",
+        "into better replacement decisions"
       ],
-      "sections": [
+      "subtitle": "Use fault codes, mileage, engine hours, and service history to trigger maintenance at the right time, cut unplanned downtime, and control repair costs.",
+      "ctas": [
         {
-          "title": "Focus Areas",
-          "bullets": [
-            "Maintenance exposure",
-            "Uptime risk",
-            "Asset health trends"
-          ]
+          "label": "Get Access",
+          "href": "#cta"
+        },
+        {
+          "label": "Book a demo",
+          "href": "#cta"
         }
       ],
-      "subtitle": "Shift from reactive repairs to planned maintenance decisions that protect uptime and reduce cost."
+      "proof": [],
+      "sections": [
+        {
+          "title": "Does this sound familiar?",
+          "bullets": [
+            "PM remains calendar-first, while usage and condition signals are underused in daily planning.",
+            "DTC, DVIR, and PM windows sit in separate tools, creating duplicate shop visits.",
+            "Repair quality suffers when root-cause closure and repeat defects are not tracked together.",
+            "Master-data gaps in asset IDs, parts, and fault naming reduce trust in maintenance analytics.",
+            "Finance and workshop history are disconnected, so replacement timing decisions stay reactive."
+          ]
+        },
+        {
+          "title": "",
+          "outcomeRows": [
+            {
+              "title": "Maintenance Control You Can Defend",
+              "subtitle": "Three field-backed outcomes and five operating signals that turn maintenance telemetry into uptime decisions",
+              "stats": [
+                {
+                  "value": "7%",
+                  "label": "Maintenance cost saving benchmark in nine-month operation"
+                },
+                {
+                  "value": "80%",
+                  "label": "PM compliance benchmark in mixed public fleet operations"
+                },
+                {
+                  "value": "90-95%",
+                  "label": "Compliance benchmark with DVIR-to-work-order discipline"
+                }
+              ],
+              "context": [
+                "Unify DTC faults, DVIR defects, and scheduled PM into one smart work-order queue.",
+                "Route low-severity items to the nearest PM window and escalate high-severity items immediately.",
+                "Track planned vs unplanned work, shop dwell time, and repeat defects within 30 days.",
+                "Measure cost per asset class, downtime per repair, and parts/labor drivers by job type.",
+                "Join maintenance and financial history to support evidence-based replacement decisions."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "From reactive repairs to maintenance decisions before failure",
+          "cards": [
+            {
+              "title": "1) Convert raw service signals into one maintenance backlog",
+              "text": "Ingest OBD/CAN/J1939 fault data, odometer and engine hours, PM schedules, DVIR forms, and parts/labor records under one asset model."
+            },
+            {
+              "title": "2) Prioritize work by severity and operational impact",
+              "text": "Use rule engine logic to group low-risk defects with upcoming PM, while opening urgent work orders for high-severity failures."
+            },
+            {
+              "title": "3) Close root cause and update lifecycle economics",
+              "text": "After repair, capture root-cause closure and feed cost plus downtime back into asset history for retention and replacement planning."
+            }
+          ]
+        },
+        {
+          "title": "Use cases and decission patterns",
+          "cards": [
+            {
+              "title": "Connected preventive maintenance at scale",
+              "text": "Problem: Teams react to breakdowns because fault alerts and PM scheduling are not orchestrated together.||Solution: Merge live maintenance alerts, oil/service reminders, and engine fault notifications into preventive work-order operations."
+            },
+            {
+              "title": "DVIR-to-work-order workflow discipline",
+              "text": "Problem: Technician capacity is overloaded when defects are logged but not routed into consistent shop execution.||Solution: Auto-convert DVIR defects into work orders, track completion SLA, and monitor repeat repairs before vehicles return to service."
+            },
+            {
+              "title": "Cold equipment and reefer reliability",
+              "text": "Problem: Product loss escalates when temperature/power issues are discovered after delivery impact.||Solution: Monitor temperature, humidity, power, and door signals continuously, then trigger predictive response before downtime and spoilage."
+            }
+          ]
+        },
+        {
+          "title": "What's available in IoT Query for maintenance operations today",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "PM Due & Compliance Dashboard",
+              "text": "Service due backlog, overdue PM, and compliance trend by asset class, depot, and technician team."
+            },
+            {
+              "title": "Open Fault Severity Queue",
+              "text": "Active fault codes with severity tiering, recommended next action, and escalation status for urgent repairs."
+            },
+            {
+              "title": "Shop Productivity Monitor",
+              "text": "Time in shop, planned vs unplanned ratio, repeat repair list, and root-cause closure quality."
+            },
+            {
+              "title": "Maintenance Cost Intelligence",
+              "text": "Parts and labor cost per asset/month, warranty candidates, and repair economics by vehicle and component family."
+            },
+            {
+              "title": "Reefer & Cold Asset Integrity",
+              "text": "Power-loss alerts, cooler temperature excursions, and sensor-health checks for refrigeration reliability control."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "/solutions/compliance",
-      "title": "Compliance Analytics",
-      "heroHeadline": "Strengthen Compliance Performance and Reduce Operational Risk",
-      "proof": [
-        "Fewer violations",
-        "Faster audits",
-        "Lower compliance cost"
+      "title": "Compliance Intelligence",
+      "heroHeadline": "Turn compliance evidence into lower risk and stronger market access",
+      "heroIntroLine": "Turn compliance telemetry",
+      "heroRotatingPhrases": [
+        "into audit-ready operational discipline",
+        "into faster response to regulatory risk",
+        "into defensible historical evidence"
       ],
-      "sections": [
+      "subtitle": "Keep hours, inspections, licenses, maintenance records, and required proof in one place so your team can pass audits faster, reduce violations, and keep work moving.",
+      "ctas": [
         {
-          "title": "Focus Areas",
-          "bullets": [
-            "Policy adherence",
-            "Incident evidence",
-            "Audit readiness"
-          ]
+          "label": "Get Access",
+          "href": "#cta"
+        },
+        {
+          "label": "Book a demo",
+          "href": "#cta"
         }
       ],
-      "subtitle": "Strengthen compliance performance, reduce violations, and stay audit-ready with less operational friction."
+      "proof": [],
+      "sections": [
+        {
+          "title": "Does this sound familiar?",
+          "bullets": [
+            "Devices are installed, but evidence quality is weak due to missing logs and history gaps.",
+            "ELD/tachograph deadlines, DVIR completeness, and IFTA readiness are still controlled manually.",
+            "Temperature and branch alerts are visible, but corrective actions are not closed consistently.",
+            "Audit preparation still relies on manual file collection across systems and teams.",
+            "Privacy, retention, and access controls vary by region, weakening compliance discipline."
+          ]
+        },
+        {
+          "title": "",
+          "outcomeRows": [
+            {
+              "title": "Compliance Control You Can Defend",
+              "subtitle": "Three field-backed outcomes and five operating signals that convert compliance tracking into legal-grade operational proof",
+              "stats": [
+                {
+                  "value": "5x",
+                  "label": "Faster tachograph evidence cycle benchmark with automation"
+                },
+                {
+                  "value": "40%",
+                  "label": "Reduction benchmark in violations and fines after process automation"
+                },
+                {
+                  "value": "210",
+                  "label": "Branch scale benchmark under centralized temperature compliance monitoring"
+                }
+              ],
+              "context": [
+                "Monitor HOS and tachograph status with proactive overdue and nearing-violation controls.",
+                "Track temperature excursions, sensor health, and restricted door-open events with immutable timestamps.",
+                "Confirm corrective action ownership and closure for each regulatory or QA event.",
+                "Maintain audit-ready historical logs by asset, driver, branch, and date range.",
+                "Measure retrieval time, evidence completeness, and unresolved compliance defect backlog."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "From tracking violations to preventing them",
+          "cards": [
+            {
+              "title": "1) Capture deterministic regulatory and sensor events",
+              "text": "Ingest ELD/HOS or tachograph records, DVIR forms, IFTA mileage, temperature and humidity readings, door events, and branch voltage signals in one evidence model."
+            },
+            {
+              "title": "2) Trigger alerts and assign accountable corrective actions",
+              "text": "When thresholds or deadlines are breached, create alert/report rows automatically, assign owner and SLA, and route tasks to compliance, QA, or branch operations."
+            },
+            {
+              "title": "3) Preserve history and export legally defensible evidence",
+              "text": "Store immutable event history and action trail, then retrieve proofs on demand by asset, driver, branch, route, and inspection period."
+            }
+          ]
+        },
+        {
+          "title": "Use cases and decission patterns",
+          "cards": [
+            {
+              "title": "Pharma and branch storage compliance",
+              "text": "Problem: Temperature/humidity compliance fails when branch monitoring is fragmented and incident response is delayed.||Solution: Centralize branch and warehouse sensor streams, enforce threshold alerts and response ownership, and keep historical logs audit-ready."
+            },
+            {
+              "title": "Tachograph and ELD evidence automation",
+              "text": "Problem: Manual download cycles consume team time and increase risk of missed deadlines and inspection failures.||Solution: Automate tachograph/ELD collection, track overdue statuses continuously, and reduce regulatory admin burden with ready-to-export evidence."
+            },
+            {
+              "title": "Compliance as market-entry capability",
+              "text": "Problem: High-value regulated transport cannot scale when proof quality is inconsistent across trips and departments.||Solution: Combine telematics, sensor, and ERP/QA integrations to run end-to-end compliant operations with department-specific notifications."
+            }
+          ]
+        },
+        {
+          "title": "What's available in IoT Query for compliance operations today",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "HOS & Tachograph Status Board",
+              "text": "Live status of violations risk, overdue downloads, card/file completeness, and deadline ownership by fleet segment."
+            },
+            {
+              "title": "Temperature Excursion Queue",
+              "text": "Out-of-range events, branch fridge voltage anomalies, and sensor offline incidents with acknowledgment and closure tracking."
+            },
+            {
+              "title": "Audit-Ready Evidence Library",
+              "text": "Historical logs and downloadable evidence packets by asset, driver, branch, date, and regulatory requirement."
+            },
+            {
+              "title": "DVIR & Regulatory Defect Monitor",
+              "text": "Missing DVIRs, unresolved defects, and recurring non-compliance issues with due-date escalation."
+            },
+            {
+              "title": "IFTA and Jurisdiction Control",
+              "text": "Mileage readiness by jurisdiction, chain-of-custody checks, and completeness indicators for tax and inspection workflows."
+            }
+          ]
+        }
+      ]
     },
     {
       "slug": "/industries",
@@ -746,10 +988,6 @@
             {
               "title": "Heavy Machinery",
               "href": "/industries/heavy-machinery"
-            },
-            {
-              "title": "Cold Chain / Pharma",
-              "href": "/industries/cold-chain-pharma"
             }
           ]
         }
@@ -759,126 +997,102 @@
     {
       "slug": "/industries/transport-logistics",
       "title": "Fleet Intelligence for Transport & Logistics",
-      "heroHeadline": "Protect Margins While Improving Delivery Performance",
-      "subtitle": "Protect margins and improve delivery performance with decision intelligence built for transport operations.",
+      "heroHeadline": "Turn daily logistics operations into measurable margin gains",
+      "heroIntroLine": "Turn logistics data",
+      "heroRotatingPhrases": [
+        "Into same-day cost control",
+        "Into higher asset productivity",
+        "Into predictable delivery performance"
+      ],
+      "subtitle": "Connect trips, dwell, routing, fuel, and service exceptions in one view so logistics teams can protect SLAs, cut avoidable cost, and stay ahead of daily disruption.",
       "ctas": [
         {
-          "label": "Explore logistics solutions",
-          "href": "/solutions"
+          "label": "Get Access",
+          "href": "#cta"
         },
         {
-          "label": "Talk to an expert",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
-      "proof": [
-        "12% lower operating cost",
-        "14% more revenue per asset",
-        "18% better route efficiency"
-      ],
+      "proof": [],
       "sections": [
         {
-          "title": "Industry Challenges",
-          "description": "Thin margins. Rising service pressure.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Fuel, labor and maintenance costs rising.",
-            "Capacity constraints despite underused assets.",
-            "Empty miles reducing profitability.",
-            "Customer SLA expectations increasing.",
-            "Limited visibility into trip-level economics.",
-            "The issue is rarely lack of data. It is lack of decision intelligence."
+            "Cost per kilometer stays invisible until month-end because each region tracks fuel and distance differently.",
+            "Ghost assets drain margin: 15-25% of vehicles are chronically underutilized but stay hidden until capex planning.",
+            "Service-level failures surface after client escalation, when root cause analysis already requires days of trip reconstruction."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "12%",
-              "label": "Lower operating cost"
-            },
-            {
-              "value": "14%",
-              "label": "More revenue per asset"
-            },
-            {
-              "value": "18%",
-              "label": "Higher route efficiency"
-            },
-            {
-              "value": "10-20%",
-              "label": "Reduction in empty miles (optional)"
+              "title": "Logistics Control You Can Defend",
+              "subtitle": "Three operating signals that help logistics teams react before margin erosion scales",
+              "stats": [
+                {
+                  "value": "1 day",
+                  "label": "To detect fuel and idle anomalies"
+                },
+                {
+                  "value": "15-25%",
+                  "label": "Typical underutilized assets surfaced"
+                },
+                {
+                  "value": "Daily",
+                  "label": "Unified cost picture refresh cadence"
+                }
+              ],
+              "context": [
+                "Regional cost variance becomes visible while action is still possible.",
+                "Underperforming vehicles are identified before new capex requests are approved.",
+                "Route and delivery risk is escalated on the day it occurs, not after client complaints."
+              ]
             }
           ]
         },
         {
-          "title": "What High-Performing Fleets Optimize",
-          "bullets": [
-            "Top fleets manage margins through operational intelligence.",
-            "Focus on cost per mile, fleet productivity, asset utilization and SLA performance.",
-            "Goal: not more data, but better operating decisions."
-          ],
-          "kpiStrip": [
-            "Cost per Mile",
-            "Revenue per Asset",
-            "On-Time Delivery",
-            "Utilization Rate"
-          ]
-        },
-        {
-          "title": "Where Intelligence Improves Operations",
+          "title": "From 5 regional data sources to one cost picture that updates daily",
           "cards": [
             {
-              "title": "Fleet Productivity",
-              "text": "Increase trips and output per asset."
+              "title": "One number every region agrees on",
+              "text": "IoT Query unifies telematics providers and regions under shared metric definitions, so operations and finance work from one cost truth."
             },
             {
-              "title": "Route Economics",
-              "text": "Reduce waste, empty miles and route inefficiencies."
+              "title": "Problems surface the day they happen",
+              "text": "Fuel spikes, idle vehicles, and overdue routes trigger same-day alerts instead of weekly reporting lag."
             },
             {
-              "title": "SLA Intelligence",
-              "text": "Improve reliability and service performance."
-            },
-            {
-              "title": "Asset Profitability",
-              "text": "Understand which assets drive margin."
+              "title": "Cost forecasts built on what actually happened",
+              "text": "Scenario answers come from operational history, not spreadsheet assumptions."
             }
           ]
         },
         {
-          "title": "Industry Use Cases",
+          "title": "What is ready for logistics operations in IoT Query today",
+          "columns": 4,
           "cards": [
             {
-              "title": "Cost Per Mile Optimization",
-              "text": "Analyze fuel and idle costs, route inefficiencies and trip-level drivers. Outcome: lower transportation costs."
+              "title": "Fleet Anomaly Monitor",
+              "text": "Detects fuel spikes, unusual idle patterns, and vehicles off expected routes on the day it happens."
             },
             {
-              "title": "Fleet Productivity",
-              "text": "Measure trips per vehicle, utilization and driver productivity. Outcome: more throughput without growing fleet."
+              "title": "Fleet Performance Dashboard",
+              "text": "Tracks cost per km, fuel consumption, idle time, mileage, and on-time delivery by driver, vehicle, and region."
             },
             {
-              "title": "SLA & Delivery Intelligence",
-              "text": "Track ETA accuracy, service exceptions and on-time performance. Outcome: better service and retention."
-            }
-          ]
-        },
-        {
-          "title": "Continue Exploring",
-          "relatedLinks": [
-            {
-              "label": "Asset Utilization Intelligence",
-              "href": "/solutions/asset-utilization",
-              "text": "Increase output from every asset."
+              "title": "Fleet Reports Dashboard",
+              "text": "Provides structured weekly and monthly reporting for operations reviews and finance sign-off."
             },
             {
-              "label": "Trips & Delivery Optimization",
-              "href": "/solutions/trips-delivery",
-              "text": "Improve route efficiency and delivery performance."
+              "title": "Vehicle Mileage Dashboard",
+              "text": "Shows mileage accumulation, utilization rates, and active versus inactive asset split."
             },
             {
-              "label": "Maintenance Intelligence",
-              "href": "/solutions/maintenance",
-              "text": "Reduce downtime and protect fleet availability."
+              "title": "Trips Dashboard (yesterday)",
+              "text": "Summarizes previous-day trips by vehicle and driver with route adherence, stops, distance, and time-window performance."
             }
           ]
         }
@@ -887,122 +1101,90 @@
     {
       "slug": "/industries/leasing",
       "title": "Connected Asset Intelligence for Leasing",
-      "heroHeadline": "Increase Asset Profitability While Reducing Risk",
-      "subtitle": "Increase asset profitability, control lifecycle cost, and protect residual value across your leasing portfolio.",
+      "heroHeadline": "Protect residual value from contract signing to asset return",
+      "heroIntroLine": "Protect leasing margin",
+      "heroRotatingPhrases": [
+        "With early contract-risk detection",
+        "With client-level risk segmentation",
+        "With audit-ready asset history"
+      ],
+      "subtitle": "Track mileage, usage, maintenance, and exception events continuously so leasing teams can control contract risk, reduce surprise charges, and protect residual value.",
       "ctas": [
         {
-          "label": "Explore leasing solutions",
-          "href": "/solutions"
+          "label": "Get Access",
+          "href": "#cta"
         },
         {
-          "label": "Talk to an expert",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
-      "proof": [
-        "15% higher utilization",
-        "12% lower lifecycle costs",
-        "20% fewer misuse losses"
-      ],
+      "proof": [],
       "sections": [
         {
-          "title": "Industry Challenges",
-          "description": "Asset value is won or lost after deployment.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Assets underutilized across contracts.",
-            "Limited visibility into asset profitability.",
-            "Misuse, unauthorized usage and damage exposure.",
-            "Residual value affected by poor lifecycle management.",
-            "Growing pressure to maximize return per asset."
+            "Residual value is set at signing and not recalculated from real behavior, so erosion appears only at return.",
+            "Client risk is priced by portfolio average because behavior is not segmented by client and asset.",
+            "Penalty disputes over mileage and damage escalate because continuous auditable records are missing."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "15%",
-              "label": "Higher asset utilization"
-            },
-            {
-              "value": "12%",
-              "label": "Lower lifecycle costs"
-            },
-            {
-              "value": "20%",
-              "label": "Fewer misuse-related losses"
-            },
-            {
-              "value": "10-18%",
-              "label": "Improved residual value performance (optional)"
+              "title": "Leasing Risk Control You Can Prove",
+              "subtitle": "Three visibility signals that protect residual value and client economics early",
+              "stats": [
+                {
+                  "value": "24/7",
+                  "label": "Contract-violation detection"
+                },
+                {
+                  "value": "100%",
+                  "label": "Behavioral risk segmentation"
+                },
+                {
+                  "value": "<5 min",
+                  "label": "Mileage and territory evidence trail"
+                }
+              ],
+              "context": [
+                "Catch mileage, territory, and maintenance breaches before penalties accumulate.",
+                "Price risk from actual client behavior instead of portfolio averages.",
+                "Resolve disputes with timestamped records that support transparent conversations."
+              ]
             }
           ]
         },
         {
-          "title": "What High-Performing Leasing Businesses Optimize",
-          "bullets": [
-            "Top performers manage asset profitability with intelligence.",
-            "Focus on utilization by asset, cost-to-own, asset health and contract compliance.",
-            "Leasing performance is profitable utilization."
-          ],
-          "kpiStrip": [
-            "Utilization Rate",
-            "Asset ROI",
-            "Lifecycle Cost",
-            "Residual Value Risk"
-          ]
-        },
-        {
-          "title": "Where Intelligence Improves Operations",
+          "title": "From contract signing to return: full asset visibility at every stage",
           "cards": [
             {
-              "title": "Asset Utilization",
-              "text": "Put underused assets to work."
+              "title": "Catch contract violations before they accumulate",
+              "text": "Mileage limits, territory breaches, and missed maintenance intervals surface automatically while corrective action is still possible."
             },
             {
-              "title": "Lifecycle Optimization",
-              "text": "Reduce cost across ownership lifecycle."
+              "title": "Segment clients by actual risk behavior",
+              "text": "Continuous telemetry and usage history build a true risk profile per client and asset, not a blended portfolio guess."
             },
             {
-              "title": "Risk Monitoring",
-              "text": "Detect misuse and protect value."
-            },
-            {
-              "title": "Portfolio Profitability",
-              "text": "Understand which assets outperform."
+              "title": "Keep every client conversation audit-ready",
+              "text": "Mileage, maintenance, and territory records stay continuous, timestamped, and exportable on demand."
             }
           ]
         },
         {
-          "title": "Industry Use Cases",
+          "title": "What's ready for leasing operations in IoT Query today",
+          "columns": 4,
           "cards": [
             {
-              "title": "Utilization Optimization",
-              "text": "Analyze usage patterns, idle assets and imbalance. Outcome: increase productive deployment."
+              "title": "Leasing Dashboard",
+              "text": "Contract mileage vs limits, territory compliance, maintenance adherence, document expiry alerts, and driver behavior events by client and vehicle."
             },
             {
-              "title": "Asset Lifecycle Intelligence",
-              "text": "Track maintenance exposure, wear and health trends. Outcome: lower lifecycle costs."
-            },
-            {
-              "title": "Risk & Misuse Monitoring",
-              "text": "Detect unauthorized use, wear patterns and contract abuse risk. Outcome: protect value and reduce losses."
-            }
-          ]
-        },
-        {
-          "title": "Continue Exploring",
-          "relatedLinks": [
-            {
-              "label": "Asset Utilization Intelligence",
-              "href": "/solutions/asset-utilization"
-            },
-            {
-              "label": "Maintenance Intelligence",
-              "href": "/solutions/maintenance"
-            },
-            {
-              "label": "Compliance & Risk Analytics",
-              "href": "/solutions/compliance"
+              "title": "Object Status Dashboard",
+              "text": "Real-time status of each asset: location, connection state, last activity, and current assignment across the entire portfolio."
             }
           ]
         }
@@ -1011,156 +1193,90 @@
     {
       "slug": "/industries/heavy-machinery",
       "title": "Equipment Intelligence for Heavy Machinery",
-      "heroHeadline": "Increase Output While Reducing Downtime and Security Risk",
-      "subtitle": "Increase productive equipment hours, reduce downtime, and protect high-value machinery from misuse and loss.",
-      "proof": [
-        "18% higher machine utilization",
-        "25% lower unplanned downtime",
-        "30% faster theft response"
+      "heroHeadline": "Connect operator behavior to asset cost",
+      "heroIntroLine": "Connect operator behavior",
+      "heroRotatingPhrases": [
+        "To maintenance cost",
+        "To utilization outcome",
+        "To site-level profitability"
       ],
-      "sections": [
+      "subtitle": "Track machine hours, fuel burn, idle time, location, and operator behavior so you can improve utilization, prevent downtime, and run more productive jobsites.",
+      "ctas": [
         {
-          "title": "Industry Challenges",
-          "bullets": [
-            "Equipment underutilized across sites.",
-            "Downtime disrupting operations.",
-            "Reactive maintenance driving costs.",
-            "High-value assets vulnerable to theft or misuse.",
-            "Limited visibility across mixed fleets and machines."
-          ]
+          "label": "Get Access",
+          "href": "#cta"
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
-            {
-              "value": "18%",
-              "label": "Higher machine utilization"
-            },
-            {
-              "value": "25%",
-              "label": "Lower unplanned downtime"
-            },
-            {
-              "value": "30%",
-              "label": "Faster theft response"
-            },
-            {
-              "value": "15-20%",
-              "label": "Lower maintenance-related costs (optional)"
-            }
-          ]
-        },
-        {
-          "title": "What High-Performing Operators Optimize",
-          "kpiStrip": [
-            "Utilization Hours",
-            "Uptime",
-            "Maintenance Risk",
-            "Asset Availability"
-          ]
-        },
-        {
-          "title": "Industry Use Cases",
-          "cards": [
-            {
-              "title": "Machine Utilization",
-              "text": "Analyze active vs idle hours and deployment imbalance. Outcome: increase productive equipment use."
-            },
-            {
-              "title": "Preventive Maintenance",
-              "text": "Monitor runtime, indicators and health trends. Outcome: lower downtime and repair costs."
-            },
-            {
-              "title": "Theft Prevention",
-              "text": "Detect unauthorized movement, geofence violations and off-hours activity. Outcome: reduce theft exposure."
-            }
-          ]
+          "label": "Book a demo",
+          "href": "https://github.com/SquareGPS/navixy-iot-query-dashboard/tree/main/schemas"
         }
-      ]
-    },
-    {
-      "slug": "/industries/cold-chain-pharma",
-      "title": "Cold Chain Intelligence for Temperature-Sensitive Operations",
-      "heroHeadline": "Protect Product Integrity While Reducing Compliance Risk",
-      "subtitle": "Protect product integrity and reduce compliance risk across temperature-sensitive operations.",
-      "proof": [
-        "35% fewer temperature excursions",
-        "28% lower spoilage-related losses",
-        "50% faster compliance investigations"
       ],
+      "proof": [],
       "sections": [
         {
-          "title": "Industry Challenges",
-          "description": "One temperature event can become a major business loss.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Temperature excursions threaten product integrity.",
-            "Compliance requirements continue to rise.",
-            "Chain-of-custody visibility is often fragmented.",
-            "Investigating incidents is slow and manual.",
-            "Spoilage, recalls and service failures carry major cost."
+            "Operator behavior and engine stress are tracked separately, so maintenance cost drivers remain unclear.",
+            "Site teams report utilization differently, making productive versus idle equipment hours hard to compare.",
+            "Deviation patterns in RPM, temperature, and fuel burn are discovered late, after downtime has already expanded."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "35%",
-              "label": "Fewer temperature excursions"
-            },
-            {
-              "value": "28%",
-              "label": "Lower spoilage-related losses"
-            },
-            {
-              "value": "50%",
-              "label": "Faster compliance investigations"
-            },
-            {
-              "value": "20-30%",
-              "label": "Reduction in compliance-related incidents (optional)"
+              "title": "Heavy Machinery Control You Can Defend",
+              "subtitle": "Three operating signals that connect behavior, cost, and uptime in one model",
+              "stats": [
+                {
+                  "value": "22%",
+                  "label": "Higher productive equipment utilization"
+                },
+                {
+                  "value": "17%",
+                  "label": "Lower maintenance cost per operator"
+                },
+                {
+                  "value": "24h",
+                  "label": "Faster anomaly detection and escalation"
+                }
+              ],
+              "context": [
+                "Link fuel and idle behavior to operator-level maintenance risk.",
+                "Compare productive versus non-productive equipment time across sites and shifts.",
+                "Escalate abnormal engine trends before they become downtime events."
+              ]
             }
           ]
         },
         {
-          "title": "What High-Performing Cold Chains Optimize",
-          "kpiStrip": [
-            "Excursion Rate",
-            "Product Integrity Risk",
-            "Compliance Score",
-            "Cold Chain Uptime"
-          ]
-        },
-        {
-          "title": "Industry Use Cases",
+          "title": "Connect operator behavior to asset cost",
           "cards": [
             {
-              "title": "Reefer Monitoring",
-              "text": "Monitor conditions, reefer performance and excursions. Outcome: reduce spoilage and service risk."
+              "title": "Engine data tied to operator and site records",
+              "text": "Maintenance cost per operator becomes a measurable variable instead of a post-failure estimate."
             },
             {
-              "title": "Chain-of-Custody Intelligence",
-              "text": "Track location plus condition, custody events and shipment integrity. Outcome: strengthen traceability."
+              "title": "Utilization and operating-cycle visibility",
+              "text": "Track productive versus idle hours and fuel consumed per operating cycle by shift and location."
             },
             {
-              "title": "Compliance Analytics",
-              "text": "Analyze excursion trends, audit evidence and exceptions. Outcome: reduce regulatory and quality risk."
+              "title": "Deviation detection before failure",
+              "text": "RPM, temperature, and fuel trend anomalies trigger alerts when readings drift outside baseline."
             }
           ]
         },
         {
-          "title": "Continue Exploring",
-          "relatedLinks": [
+          "title": "What's ready for heavy machinery operations in IoT Query today",
+          "columns": 4,
+          "cards": [
             {
-              "label": "Asset Utilization Intelligence",
-              "href": "/solutions/asset-utilization"
+              "title": "Heavy Machinery Trip Operations Dashboard",
+              "text": "Site-by-site and shift-by-shift activity: engine hours, productive vs idle time, fuel per operating cycle, and movement between locations."
             },
             {
-              "label": "Compliance Analytics",
-              "href": "/solutions/compliance"
-            },
-            {
-              "label": "Trips & Delivery Optimization",
-              "href": "/solutions/trips-delivery"
+              "title": "Heavy Machinery Engine Operation Dashboard",
+              "text": "Fleet-wide engine mode distribution, fuel per engine hour, RPM and temperature trends, and deviation alerts beyond baseline ranges."
             }
           ]
         }
@@ -1179,8 +1295,8 @@
               "href": "/roles/fleet-manager"
             },
             {
-              "title": "COO / Operations Director",
-              "href": "/roles/coo-operations-director"
+              "title": "Data Analyst",
+              "href": "/roles/data-analyst"
             },
             {
               "title": "Safety Manager",
@@ -1198,178 +1314,212 @@
     {
       "slug": "/roles/fleet-manager",
       "title": "Decision Intelligence for Fleet Managers",
-      "heroHeadline": "Control Costs and Improve Fleet Performance Every Day",
-      "subtitle": "Run daily operations with tighter cost control, stronger utilization, and faster decision-making.",
-      "proof": [
-        "15% lower fuel costs",
-        "22% higher asset utilization",
-        "18% less idle time"
+      "heroHeadline": "Your fleet answers before you finish asking",
+      "heroIntroLine": "Your fleet answers",
+      "heroRotatingPhrases": [
+        "Before you finish asking",
+        "Before costs escalate",
+        "Before the meeting starts"
+      ],
+      "subtitle": "Track fuel, idling, mileage, utilization, delivery performance, and vehicle health in one place - without chasing reports or merging spreadsheets.",
+      "ctas": [
+        {
+          "label": "Request a Demo",
+          "href": "#cta"
+        }
       ],
       "sections": [
         {
-          "title": "Role Challenges",
-          "description": "You are expected to improve performance from every angle.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Fuel and operating costs keep rising.",
-            "Utilization gaps reduce productivity.",
-            "Driver performance impacts cost and risk.",
-            "Too much time spent reacting instead of optimizing.",
-            "Decisions often rely on incomplete visibility."
+            "Your regional managers show up to the monthly review with different fuel numbers for the same period, and the first 20 minutes go to figuring out whose spreadsheet is right.",
+            "You found out about a significant idling or fuel problem days after it happened, when the cost was already locked in.",
+            "Getting a custom performance report from your analyst takes three days, which means it is already outdated when it arrives.",
+            "Your compliance reports are assembled manually from system exports, usually the night before they are needed.",
+            "You know which KPIs matter. You just cannot see them on demand without asking someone to build something first.",
+            "You are responsible for fleet performance, but you are not the one who controls access to the data that shows it."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "15%",
-              "label": "Lower fuel costs"
-            },
-            {
-              "value": "22%",
-              "label": "Higher utilization"
-            },
-            {
-              "value": "18%",
-              "label": "Less idle time"
-            },
-            {
-              "value": "10-20%",
-              "label": "Lower operating cost per vehicle (optional)"
+              "title": "Cost Control You Can Defend",
+              "subtitle": "Three operating signals that help fleet managers react before losses scale",
+              "stats": [
+                {
+                  "value": "18%",
+                  "label": "Lower idle-related fuel waste"
+                },
+                {
+                  "value": "11%",
+                  "label": "Faster response to route deviations"
+                },
+                {
+                  "value": "24h",
+                  "label": "Earlier detection of regional cost spikes"
+                }
+              ],
+              "context": [
+                "Spot cost leakage by region before it impacts monthly targets.",
+                "Prioritize coaching and dispatch actions using measurable risk signals.",
+                "Walk into reviews with one trusted KPI story across all teams."
+              ]
             }
           ]
         },
         {
-          "title": "What High-Performing Fleet Managers Optimize",
-          "kpiStrip": [
-            "Fuel Cost per Vehicle",
-            "Utilization Rate",
-            "Driver Score",
-            "Idle Time"
-          ]
-        },
-        {
-          "title": "Where Intelligence Improves Decisions",
+          "title": "From scattered data to a dashboard your whole team trusts",
           "cards": [
             {
-              "title": "Cost Control",
-              "text": "Find and reduce operational leakage."
+              "title": "1) Define the KPIs that matter",
+              "text": "Set fuel cost per kilometer, idle time per shift, on-time delivery by route, and other operating targets."
             },
             {
-              "title": "Utilization Management",
-              "text": "Increase productive use of assets."
+              "title": "2) Connect your existing BI stack",
+              "text": "Power BI or your current tool connects quickly; your team starts seeing live signals within days."
             },
             {
-              "title": "Driver Performance",
-              "text": "Improve safety and efficiency."
+              "title": "3) Standardize every region",
+              "text": "All teams report from one environment, so operations and finance review the same figures."
             },
             {
-              "title": "Daily Fleet Operations",
-              "text": "Respond faster as issues emerge."
+              "title": "4) Automate refresh, alerts, and reviews",
+              "text": "Dashboards stay current, alerts go to the right owner, and performance reviews run on full operational history."
             }
           ]
         },
         {
-          "title": "Practical Use Cases",
+          "title": "What the job looks like when the data is always ready",
+          "description": "Compare the old reporting routine with a decision-ready operating model.",
           "cards": [
             {
-              "title": "Fuel & Cost Control",
-              "text": "Analyze fuel trends, idle waste and operating drivers. Outcome: lower fuel spend and improve margins."
+              "title": "Before IoT Query",
+              "text": "You walk into budget reviews with forecasts challenged because source numbers are inconsistent.||Monday starts with chasing report versions instead of reviewing operating performance.||When leadership asks a hard fleet question, answers take days instead of minutes."
             },
             {
-              "title": "Utilization Optimization",
-              "text": "Measure productive time, utilization gaps and idle-to-active ratio. Outcome: increase output from existing fleet."
-            },
-            {
-              "title": "Driver Performance",
-              "text": "Track driver scorecards, risk events and behavior trends. Outcome: safer, more efficient operations."
-            }
-          ]
-        },
-        {
-          "title": "Continue Exploring",
-          "relatedLinks": [
-            {
-              "label": "Asset Utilization Intelligence",
-              "href": "/solutions/asset-utilization"
-            },
-            {
-              "label": "Driver Safety & Risk Intelligence",
-              "href": "/solutions/driver-safety"
-            },
-            {
-              "label": "Trips & Delivery Optimization",
-              "href": "/solutions/trips-delivery"
+              "title": "After IoT Query",
+              "text": "One live dashboard covers all regions: fuel, idling, on-time delivery, and violations without manual intervention.||Safety and compliance teams access current reports directly without submitting requests.||Cost variance between regions is visible the moment it appears, not at month end."
             }
           ]
         }
       ]
     },
     {
-      "slug": "/roles/coo-operations-director",
-      "title": "Decision Intelligence for COOs & Operations Leaders",
-      "heroHeadline": "Improve Margins While Increasing Operational Throughput",
-      "subtitle": "Scale throughput, protect margin, and improve service performance with data-driven operating decisions.",
-      "proof": [
-        "8-12% higher operating margin",
-        "14% greater fleet throughput",
-        "12% improved service-level performance"
+      "slug": "/roles/data-analyst",
+      "title": "Decision Intelligence for Data & BI Analysts",
+      "heroHeadline": "Make fleet analytics easy: direct SQL, no pipeline pain",
+      "heroIntroLine": "Make fleet analytics easy",
+      "heroRotatingPhrases": [
+        "Without extraction bottlenecks",
+        "Without schema guesswork",
+        "Without API workarounds"
       ],
+      "subtitle": "Work from clean GPS, trip, sensor, and business data in PostgreSQL so you can build trusted analysis, dashboards, and models without maintaining custom data pipelines.",
+      "ctas": [
+        {
+          "label": "Get Access",
+          "href": "#cta"
+        },
+        {
+          "label": "Book a demo",
+          "href": "#cta"
+        }
+      ],
+      "proof": [],
       "sections": [
         {
-          "title": "Role Challenges",
-          "description": "Growth pressure meets margin pressure.",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Margin pressure across the network.",
-            "Productivity varies across regions or teams.",
-            "Service levels impact retention and growth.",
-            "Capacity planning often relies on incomplete visibility.",
-            "Too many decisions are reactive."
+            "Too much analyst time goes to extraction and formatting instead of actual analysis.",
+            "Schema discovery takes hours because field meaning and joins are unclear.",
+            "API rate limits block complete dataset pulls for deeper models.",
+            "Dashboards depend on last export snapshots instead of current operational state.",
+            "The gap between analytical skill and delivery speed is caused by data access, not by analyst capability."
           ]
         },
         {
-          "title": "Measured Impact",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "8-12%",
-              "label": "Higher operating margin"
-            },
-            {
-              "value": "14%",
-              "label": "Greater fleet throughput"
-            },
-            {
-              "value": "12%",
-              "label": "Improved service levels"
-            },
-            {
-              "value": "10-18%",
-              "label": "Lower cost-to-serve (optional)"
+              "title": "Analytics Throughput You Can Defend",
+              "subtitle": "Three numbers that matter when data access stops blocking analyst output",
+              "stats": [
+                {
+                  "value": "2h",
+                  "label": "From connection to first useful query"
+                },
+                {
+                  "value": "90+",
+                  "label": "Days of queryable historical telemetry"
+                },
+                {
+                  "value": "1",
+                  "label": "Standard PostgreSQL interface for all tools"
+                }
+              ],
+              "context": [
+                "Start analysis the same day without building extraction scripts.",
+                "Use complete history for trend analysis and model training.",
+                "Keep BI, SQL, and notebook workflows on one governed source."
+              ]
             }
           ]
         },
         {
-          "title": "What High-Performing Operations Leaders Optimize",
-          "kpiStrip": [
-            "Operating Margin",
-            "Throughput",
-            "Cost-to-Serve",
-            "SLA Performance"
+          "title": "What disappears when data is directly accessible",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Every BI tool connects",
+              "text": "Power BI, Tableau, Apache Superset, Metabase, Redash, Jupyter, dbt, Python, and R connect through standard PostgreSQL."
+            },
+            {
+              "title": "Three data layers, one decision flow",
+              "text": "Use Bronze for raw telemetry, Silver for operational entities, or Gold for KPI-ready aggregates based on your use case."
+            },
+            {
+              "title": "Documented schema, no archaeology",
+              "text": "Field definitions, table relationships, and join logic are documented, so analysts query confidently from day one."
+            },
+            {
+              "title": "History that is actually usable",
+              "text": "30, 60, and 90+ day windows are queryable in one place for model training, trend analysis, and anomaly debugging."
+            }
           ]
         },
         {
-          "title": "Practical Use Cases",
+          "title": "From data access request to working analysis",
           "cards": [
             {
-              "title": "Margin Intelligence",
-              "text": "Analyze cost-to-serve, margin by route/region and cost drivers. Outcome: improve operating margin."
+              "title": "1) Connect in under 2 hours",
+              "text": "Use standard host, port, database, and credentials with TLS in psql, DBeaver, DataGrip, Power BI, or Jupyter."
             },
             {
-              "title": "Network Productivity",
-              "text": "Measure asset and route productivity, capacity utilization. Outcome: move more without adding assets."
+              "title": "2) Navigate schema in minutes",
+              "text": "Use documented layers, keys, and joins instead of reverse-engineering API payloads."
             },
             {
-              "title": "Service-Level Intelligence",
-              "text": "Track SLA adherence, delivery performance and exceptions. Outcome: improve service and retention."
+              "title": "3) Run your first analytical query",
+              "text": "Start from SQL recipes: fuel by driver, idle events by zone, trip distance by class, on-time delivery by route."
+            },
+            {
+              "title": "4) Connect BI and ML workflows",
+              "text": "Enable scheduled refresh for dashboards and train models directly from historical data in Python/Jupyter."
+            }
+          ]
+        },
+        {
+          "title": "What the job looks like when the data is always ready",
+          "description": "Compare extraction-heavy analytics delivery with a direct-query operating model.",
+          "cards": [
+            {
+              "title": "Before IoT Query",
+              "text": "Every new analytics request starts with data extraction and cleanup work before analysis can begin.||Different teams produce conflicting numbers because they pull from different endpoints and refresh schedules.||Modeling and BI delivery slow down because infrastructure work consumes analyst capacity."
+            },
+            {
+              "title": "After IoT Query",
+              "text": "Any SQL client connects directly, and analysts start with business questions instead of extraction scripts.||Teams read from one governed schema, so KPI definitions stay consistent across dashboards and notebooks.||BI refreshes and model iterations run on the same historical source without manual export cycles."
             }
           ]
         }
@@ -1378,44 +1528,192 @@
     {
       "slug": "/roles/safety-manager",
       "title": "Decision Intelligence for Safety Managers",
-      "heroHeadline": "Lower Risk and Strengthen Safety Performance at Scale",
-      "proof": [
-        "Fewer incidents",
-        "Lower claims exposure",
-        "Better coaching outcomes"
+      "heroHeadline": "Detect safety risk before incidents become claims",
+      "heroIntroLine": "Detect safety risk",
+      "heroRotatingPhrases": [
+        "Before incidents escalate",
+        "Before compliance deadlines",
+        "Before claims are filed"
+      ],
+      "subtitle": "Monitor speeding, harsh events, fatigue, violations, and incident footage in one workflow so your team can intervene faster, reduce claims, and build a fairer safety program.",
+      "ctas": [
+        {
+          "label": "Request a Demo",
+          "href": "#cta"
+        }
       ],
       "sections": [
         {
-          "title": "Role Challenge",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Unsafe behavior patterns",
-            "Late intervention",
-            "Compliance pressure"
+            "Incident reviews rely on fragmented exports, and teams spend more time assembling evidence than preventing repeat behavior.",
+            "Speeding, harsh driving, and route deviations are spotted too late, after risk has already compounded.",
+            "Coaching plans are inconsistent across regions because managers use different data snapshots.",
+            "Compliance reporting is rushed near deadlines and depends on manual reconciliation.",
+            "Leadership asks for current safety status, but the answer depends on which report version is open.",
+            "You own safety outcomes, but not the data pipeline that determines intervention speed."
+          ]
+        },
+        {
+          "title": "",
+          "outcomeRows": [
+            {
+              "title": "Safety Control You Can Prove",
+              "subtitle": "Three signals that help safety managers intervene before exposure grows",
+              "stats": [
+                {
+                  "value": "27%",
+                  "label": "Faster high-risk driver identification"
+                },
+                {
+                  "value": "32%",
+                  "label": "Earlier route-violation response"
+                },
+                {
+                  "value": "1 day",
+                  "label": "Less time to prepare compliance packs"
+                }
+              ],
+              "context": [
+                "Prioritize coaching actions using live risk ranking by driver and route.",
+                "Route anomalies are escalated when they happen, not after weekly summaries.",
+                "Compliance teams work from one always-current evidence stream."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "From scattered signals to a safety system your whole team follows",
+          "cards": [
+            {
+              "title": "1) Define your critical risk thresholds",
+              "text": "Set speed, harsh-event, zone-violation, and route-deviation limits aligned with your policy."
+            },
+            {
+              "title": "2) Connect your current BI and alerting stack",
+              "text": "Use your existing reporting tools to surface safety events in one governed view."
+            },
+            {
+              "title": "3) Standardize coaching across regions",
+              "text": "Every manager works from the same incident history and evidence baseline."
+            },
+            {
+              "title": "4) Automate monitoring, escalations, and review cycles",
+              "text": "Risk alerts route automatically, and periodic safety reviews run from complete historical records."
+            }
+          ]
+        },
+        {
+          "title": "What the job looks like when the data is always ready",
+          "description": "Compare fragmented safety reporting with a proactive risk-control model.",
+          "cards": [
+            {
+              "title": "Before IoT Query",
+              "text": "Safety review meetings start with data reconciliation instead of action planning.||Serious risk patterns are confirmed only after manual report consolidation.||Coaching and compliance responses vary by region because evidence is not synchronized."
+            },
+            {
+              "title": "After IoT Query",
+              "text": "One live safety dashboard shows incidents, violations, and coaching priorities across all regions.||Compliance and safety teams access current reports directly without waiting for manual exports.||Risk exposure is visible immediately, and interventions are triggered while they still prevent losses."
+            }
           ]
         }
       ],
-      "subtitle": "Improve safety outcomes with proactive risk monitoring, coaching priorities, and evidence-based decisions."
+      "proof": []
     },
     {
       "slug": "/roles/finance-leader",
       "title": "Decision Intelligence for Finance Leaders",
-      "heroHeadline": "Connect Operational Signals to Margin and ROI Decisions",
-      "proof": [
-        "Lower cost-to-serve",
-        "Higher asset ROI",
-        "Clearer margin visibility"
+      "heroHeadline": "Turn fleet operations into margin decisions you can trust",
+      "heroIntroLine": "Turn fleet operations",
+      "heroRotatingPhrases": [
+        "Into margin clarity",
+        "Into ROI discipline",
+        "Into forecast confidence"
+      ],
+      "subtitle": "Connect fuel, utilization, maintenance, service, and risk data to cost-to-serve and asset lifecycle decisions - with fewer assumptions and less spreadsheet work.",
+      "ctas": [
+        {
+          "label": "Request a Demo",
+          "href": "#cta"
+        }
       ],
       "sections": [
         {
-          "title": "Role Challenge",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Limited trip-level economics",
-            "Hidden leakage",
-            "Uncertain capex timing"
+            "Monthly finance reviews start with reconciliation because regional teams report cost and productivity differently.",
+            "Fuel leakage and idle-related waste are discovered after close, when margin impact is already locked in.",
+            "Cost-to-serve analysis takes days to prepare, so decisions are based on outdated snapshots.",
+            "Scenario questions from leadership rely on spreadsheet assumptions instead of operating history.",
+            "ROI conversations around vehicles and routes are delayed by missing trip-level economics.",
+            "You own margin accountability, but key operational cost drivers are not visible in time."
+          ]
+        },
+        {
+          "title": "",
+          "outcomeRows": [
+            {
+              "title": "Financial Control You Can Explain",
+              "subtitle": "Three signals finance teams use to act before margin erosion scales",
+              "stats": [
+                {
+                  "value": "14%",
+                  "label": "Faster cost-variance detection"
+                },
+                {
+                  "value": "9%",
+                  "label": "Improved cost-to-serve visibility"
+                },
+                {
+                  "value": "2x",
+                  "label": "Quicker scenario turnaround for leadership"
+                }
+              ],
+              "context": [
+                "Detect regional leakage earlier instead of after monthly close.",
+                "Link trip-level behavior to margin impact in one governed view.",
+                "Run finance scenarios from operating history, not static assumptions."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "From scattered cost data to a finance view your whole team trusts",
+          "cards": [
+            {
+              "title": "1) Define the financial KPIs that matter",
+              "text": "Set margin by region, cost-to-serve by route, fuel per kilometer, and utilization-adjusted unit economics."
+            },
+            {
+              "title": "2) Connect operations and finance reporting",
+              "text": "Bring telematics and business entities into one model so Finance and Operations read the same numbers."
+            },
+            {
+              "title": "3) Standardize regional performance logic",
+              "text": "Apply one calculation framework across regions to remove reconciliation-heavy review cycles."
+            },
+            {
+              "title": "4) Automate forecast and variance monitoring",
+              "text": "Keep dashboards current and trigger alerts when margin or cost thresholds move off plan."
+            }
+          ]
+        },
+        {
+          "title": "What the job looks like when the data is always ready",
+          "description": "Compare spreadsheet-driven finance reviews with a live operating-finance model.",
+          "cards": [
+            {
+              "title": "Before IoT Query",
+              "text": "Budget discussions slow down because numbers are reconciled manually across teams.||Leadership questions about cost drivers require follow-up analysis days after the meeting.||Forecast adjustments are based on assumptions because operating data is not unified."
+            },
+            {
+              "title": "After IoT Query",
+              "text": "Finance and operations review one live cost and margin model across all regions.||Leadership questions are answered in-session with current trip, fuel, and utilization context.||Scenario planning runs on real operating history with clear variance signals."
+            }
           ]
         }
       ],
-      "subtitle": "Connect operational performance to margin, ROI, and investment decisions with clear financial visibility."
+      "proof": []
     },
     {
       "slug": "/tools",
@@ -1445,99 +1743,123 @@
     {
       "slug": "/tools/dashboard-studio",
       "title": "Dashboard Studio",
-      "heroHeadline": "Build Fleet Decision Center with Dashboard Studio",
-      "subtitle": "Build and share operational dashboards, KPI scorecards, and reports without launching a full BI project.",
+      "heroHeadline": "Build fleet analytics your team can use today",
+      "heroIntroLine": "Build dashboard answers",
+      "heroRotatingPhrases": [
+        "Without external BI setup",
+        "Without spreadsheet exports",
+        "Without waiting for custom reports"
+      ],
+      "subtitle": "Turn live telematics data into dashboards and reports your teams can use every day, without waiting on manual refreshes or separate data prep.",
       "ctas": [
         {
-          "label": "See Dashboard Studio in Action",
+          "label": "Get Access",
           "href": "#cta"
         },
         {
-          "label": "Book a Demo",
-          "href": "#cta"
+          "label": "Book a demo",
+          "href": "https://www.navixy.com/docs/analytics/dashboard-studio"
         }
       ],
-      "proof": [
-        "Self-service analytics",
-        "Template-ready dashboards",
-        "Embedded inside Navixy"
-      ],
+      "proof": [],
       "sections": [
         {
-          "title": "Key Challenge",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Teams need analytics, but not another BI project.",
-            "Avoid complex BI deployments and long dashboard projects.",
-            "Avoid analyst bottlenecks and static spreadsheet reporting."
+            "Teams have data access but still wait on BI queues for every new dashboard question.",
+            "Operational users see exports and static reports instead of live fleet views.",
+            "Analytics delivery depends on ad-hoc SQL and manual formatting, so decision cycles stay slow."
           ]
         },
         {
-          "title": "What Teams Gain",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "Minutes",
-              "label": "Build dashboards in minutes"
-            },
-            {
-              "value": "Ready-made",
-              "label": "Use fleet templates"
-            },
-            {
-              "value": "Governed",
-              "label": "Share analytics across teams"
+              "title": "Self-Service Analytics You Can Scale",
+              "subtitle": "Three delivery outcomes teams expect when Dashboard Studio becomes the daily analytics layer",
+              "stats": [
+                {
+                  "value": "4",
+                  "label": "Fleet-focused visualization types out of the box"
+                },
+                {
+                  "value": "1 query",
+                  "label": "Report format with table, chart, and map"
+                },
+                {
+                  "value": "0",
+                  "label": "Separate BI platform required"
+                }
+              ],
+              "context": [
+                "Build panels once and keep them live as new telemetry arrives.",
+                "Let analysts define SQL while operations consume visual answers safely.",
+                "Export dashboard-driven reports to HTML, Excel, and PDF when needed."
+              ]
             }
           ]
         },
         {
-          "title": "What You Can Build",
+          "title": "From SQL access to operational dashboards in one workflow",
           "cards": [
             {
-              "title": "KPI Dashboards",
-              "text": "Monitor utilization, fuel, safety, maintenance and service metrics."
+              "title": "1) Query across Raw, Transformation, and Insight layers",
+              "text": "Use the same IoT Query schemas your analysts already access with SQL clients."
             },
             {
-              "title": "Role-Based Dashboards",
-              "text": "Tailor views for fleet managers, dispatchers, executives and customers."
+              "title": "2) Build visuals with drag-and-drop panels",
+              "text": "Compose bar charts, pie charts, tables, and stat tiles without separate BI infrastructure."
             },
             {
-              "title": "Operational Scorecards",
-              "text": "Track KPI performance against thresholds."
+              "title": "3) Organize dashboards by team and topic",
+              "text": "Use folders and menu structures so operational users reach the right views quickly."
             },
             {
-              "title": "Visual Reports",
-              "text": "Combine charts, stat tiles and tables into shareable reports."
+              "title": "4) Publish reports and exports for operations and leadership",
+              "text": "Generate coordinated chart/table/map outputs and export to HTML, Excel, or PDF on demand."
             }
           ]
         },
         {
-          "title": "Embedded Governed Self-Service Analytics",
-          "bullets": [
-            "Power users define KPIs once and build reusable decision views.",
-            "Business users explore dashboards safely, filter and drill without SQL.",
-            "Built for self-service and governance at scale."
-          ],
-          "kpiStrip": [
-            "Fuel dashboards",
-            "Maintenance dashboards",
-            "Safety scorecards",
-            "Geospatial views",
-            "SLA and utilization dashboards"
+          "title": "What Dashboard Studio offers in practice",
+          "cards": [
+            {
+              "title": "Self-service analytics layer",
+              "text": "Bridge analyst SQL capability and operational dashboard usage in one managed environment."
+            },
+            {
+              "title": "Fleet-optimized visuals",
+              "text": "Bar, pie, table, and stat-tile views tuned for telematics and route-performance workflows."
+            },
+            {
+              "title": "No external BI dependency",
+              "text": "Deliver analytics inside your IoT Query environment without standing up a separate platform."
+            }
           ]
         },
         {
-          "title": "Practical Use Cases",
+          "title": "Featured dashboard blueprints you can launch first",
+          "columns": 4,
           "cards": [
             {
-              "title": "Fleet Command Center",
-              "text": "Monitor KPIs, exceptions, utilization and operational health. Outcome: one source of truth."
+              "title": "Fleet Anomaly Monitor",
+              "text": "Detects fuel spikes, unusual idle behavior, and off-route movement before weekly reporting."
             },
             {
-              "title": "Executive KPI Cockpit",
-              "text": "Track cost metrics, productivity and service. Outcome: faster executive decisions."
+              "title": "Fleet Performance Dashboard",
+              "text": "Tracks cost per km, fuel consumption, idle time, mileage, and on-time delivery by region and asset."
             },
             {
-              "title": "Customer-Facing Analytics",
-              "text": "Deliver branded shared reporting and transparency. Outcome: differentiated service."
+              "title": "Fleet Reports Dashboard",
+              "text": "Structures weekly and monthly operations reporting for management review and finance sign-off."
+            },
+            {
+              "title": "Trips Dashboard (Yesterday)",
+              "text": "Summarizes previous-day trips with route adherence, stops, time windows, and distance performance."
+            },
+            {
+              "title": "Vehicle Mileage Dashboard",
+              "text": "Shows mileage accumulation, utilization rates, and active vs inactive fleet split."
             }
           ]
         },
@@ -1545,14 +1867,16 @@
           "title": "Continue Exploring",
           "relatedLinks": [
             {
-              "label": "Third-Party BI Tools",
-              "href": "/tools/third-party-bi",
-              "text": "Connect Microsoft, Superset and Grafana."
+              "label": "Open BI Ecosystem",
+              "href": "/tools/third-party-bi"
             },
             {
               "label": "Custom Apps",
-              "href": "/tools/custom-apps",
-              "text": "Extend intelligence into purpose-built workflows."
+              "href": "/tools/custom-apps"
+            },
+            {
+              "label": "Dashboard schema examples",
+              "href": "https://github.com/SquareGPS/navixy-iot-query-dashboard/tree/main/schemas"
             }
           ]
         }
@@ -1561,86 +1885,125 @@
     {
       "slug": "/tools/third-party-bi",
       "title": "Open BI Ecosystem",
-      "heroHeadline": "Connect Your Data to the BI Stack You Already Use",
-      "proof": [
-        "Analytics-ready data access",
-        "Works with your BI stack",
-        "No vendor lock-in"
+      "heroHeadline": "Use your BI stack with IoT Query without vendor lock-in",
+      "heroIntroLine": "Turn IoT Query data into",
+      "heroRotatingPhrases": [
+        "PowerBI dashbaords",
+        "Grafana monitoring",
+        "Python apps"
       ],
+      "subtitle": "Connect PostgreSQL-compatible BI tools directly to trusted fleet data so analysts can model once, govern centrally, and avoid vendor lock-in.",
       "ctas": [
         {
-          "label": "Explore BI Connectivity",
+          "label": "Get Access",
           "href": "#cta"
         },
         {
-          "label": "Book a Demo",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
+      "proof": [],
       "sections": [
         {
-          "title": "The Challenge",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Traditional telematics APIs were not built for analytics.",
-            "Raw data is fragmented and heavy to transform.",
-            "Operational teams get stuck between telematics and data engineering."
+            "Your analytics team has SQL access, but delivery still depends on manual exports and custom one-off reporting work.",
+            "Different teams use different BI tools, and data consistency breaks because sources and refresh logic are fragmented.",
+            "You need scalable visual analytics without replacing existing BI investments or forcing one vendor stack."
           ]
         },
         {
-          "title": "What Teams Gain",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "Reuse",
-              "label": "Use existing BI investments"
-            },
-            {
-              "value": "Faster",
-              "label": "Accelerate analytics delivery"
-            },
-            {
-              "value": "Scale",
-              "label": "Support enterprise decision workflows"
+              "title": "Open BI Control You Can Defend",
+              "subtitle": "Three architecture outcomes teams need when analytics must scale across tools",
+              "stats": [
+                {
+                  "value": "1",
+                  "label": "PostgreSQL access model across BI tools"
+                },
+                {
+                  "value": "48/day",
+                  "label": "Power BI scheduled refresh capability"
+                },
+                {
+                  "value": "10,000+",
+                  "label": "Superset-scale multi-user analytics potential"
+                }
+              ],
+              "context": [
+                "Run dashboards in familiar tools without rebuilding the data foundation.",
+                "Keep governance and access predictable even with mixed BI tool usage.",
+                "Support both business reporting and advanced technical exploration from one data source."
+              ]
             }
           ]
         },
         {
-          "title": "Direct Analytics-Ready Data Access",
-          "kpiStrip": [
-            "Microsoft",
-            "Apache Superset",
-            "Grafana",
-            "Tableau",
-            "Metabase"
-          ]
-        },
-        {
-          "title": "What You Can Build",
+          "title": "From tool selection to production-ready analytics delivery",
           "cards": [
             {
-              "title": "Executive Reporting",
-              "text": "Margin reporting, cost analysis and performance reporting."
+              "title": "1) Pick by team profile and operating model",
+              "text": "Power BI for fast enterprise rollout, Superset for open-source control and scale, Streamlit for Python-native custom apps."
             },
             {
-              "title": "Embedded BI",
-              "text": "Embedded dashboards, shared portals and monetized analytics services."
+              "title": "2) Connect through standard PostgreSQL parameters",
+              "text": "Use DB host, port, database, user, password, and SSL=require across all supported connection guides."
             },
             {
-              "title": "Operational Dashboards",
-              "text": "Utilization, cost control and service-level monitoring."
+              "title": "3) Configure refresh, access, and reporting outputs",
+              "text": "Set scheduled refresh, role-based access, and export workflows aligned with your operations cadence."
             },
             {
-              "title": "Advanced SQL Analytics",
-              "text": "Custom KPIs, modeling, predictive analytics and multi-source analysis."
+              "title": "4) Scale from proof-of-concept to production",
+              "text": "Start with one critical dashboard, validate impact, then expand templates and governance across teams."
             }
           ]
         },
         {
-          "title": "Why Open BI Matters",
-          "bullets": [
-            "Use familiar tools.",
-            "Scale advanced analytics faster.",
-            "Avoid vendor lock-in.",
-            "Support enterprise data strategies."
+          "title": "How to choose the right BI tool for your team",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Power BI",
+              "text": "Best when Microsoft 365 integration, quick setup, enterprise support, and built-in refresh workflows matter most."
+            },
+            {
+              "title": "Apache Superset",
+              "text": "Best for open-source flexibility, strong SQL workflows, and scalable multi-user analytics with technical ownership."
+            },
+            {
+              "title": "Python + Streamlit",
+              "text": "Best for rapid custom prototypes, ML-centric analytics apps, and teams with strong Python engineering capacity."
+            },
+            {
+              "title": "Grafana",
+              "text": "Best for operational monitoring, time-series dashboards, variable-based filtering, and real-time telemetry exploration."
+            }
+          ]
+        },
+        {
+          "title": "Connection playbooks for your first dashboard",
+          "columns": 4,
+          "cards": [
+            {
+              "title": "Power BI playbook",
+              "text": "Install Power BI Desktop, set DB parameters in report templates, configure credentials, and enable scheduled refresh in service."
+            },
+            {
+              "title": "Superset playbook",
+              "text": "Deploy with Docker, add PostgreSQL SQLAlchemy URI with SSL=require, then import datasets/charts/dashboards in sequence."
+            },
+            {
+              "title": "Grafana playbook",
+              "text": "Add PostgreSQL data source, use Code mode SQL queries, configure variables, and import dashboard JSON templates for faster rollout."
+            },
+            {
+              "title": "Python + Streamlit playbook",
+              "text": "Create .env-based DB config, connect with psycopg2, and ship interactive analytics with rapid iteration and Python libraries."
+            }
           ]
         },
         {
@@ -1653,130 +2016,158 @@
             {
               "label": "Custom Apps",
               "href": "/tools/custom-apps"
+            },
+            {
+              "label": "Selecting BI tools docs",
+              "href": "https://navixy.com/docs/analytics/iot-query/connection-setup/selecting-bi-tools"
             }
           ]
         }
-      ],
-      "subtitle": "Bring telematics intelligence into your existing BI stack for faster analytics and better decision workflows."
+      ]
     },
     {
       "slug": "/tools/custom-apps",
-      "title": "Operational Apps Built on Decision Intelligence",
-      "heroHeadline": "Turn Intelligence into Operational Decisions with Purpose-Built Apps",
-      "proof": [
-        "Faster time-to-value",
-        "Purpose-built workflows",
-        "Operational decisions in action"
+      "title": "Custom Operational Apps",
+      "heroHeadline": "Turn telematics data into role-specific applications faster",
+      "heroIntroLine": "Turn telematics data",
+      "heroRotatingPhrases": [
+        "into warehouse control apps",
+        "into trip intelligence workflows",
+        "into embedded tools in navixy"
       ],
+      "subtitle": "Create focused apps for dispatch, safety, maintenance, leasing, or compliance on top of shared data, access, and logic - so delivery is faster and adoption is higher.",
+      "proof": [],
       "ctas": [
         {
-          "label": "Explore Apps",
+          "label": "Get Access",
           "href": "#cta"
         },
         {
-          "label": "Book a Demo",
+          "label": "Book a demo",
           "href": "#cta"
         }
       ],
       "sections": [
         {
-          "title": "The Challenge",
+          "title": "Does this sound familiar?",
           "bullets": [
-            "Data alone rarely changes operations.",
-            "Valuable data exists but stays underused.",
-            "Dashboards show signals, but do not drive action.",
-            "Teams need solutions for specific operational workflows."
+            "Operations teams need specific interfaces, but generic fleet screens hide key signals under multiple clicks.",
+            "API-first integrations work for status checks, but historical analytics become slow and expensive to maintain.",
+            "Developers spend months on pipelines, sync jobs, and auth instead of solving workflow problems.",
+            "Business users need tenant-specific views by warehouse, client, and role without rebuilding the app each time.",
+            "Scaling across new facilities and users breaks when architecture depends on custom middleware."
           ]
         },
         {
-          "title": "What Teams Gain",
-          "metrics": [
+          "title": "",
+          "outcomeRows": [
             {
-              "value": "Faster",
-              "label": "Deploy operational apps quickly"
-            },
-            {
-              "value": "Accelerate",
-              "label": "Improve time-to-value"
-            },
-            {
-              "value": "Repeatable",
-              "label": "Support repeatable decision workflows"
+              "title": "Custom app control you can defend",
+              "subtitle": "Three delivery facts and five operating signals that make custom app rollout faster and lower-risk",
+              "stats": [
+                {
+                  "value": "12",
+                  "label": "Storage zones monitored in one role-specific interface"
+                },
+                {
+                  "value": "2",
+                  "label": "Production use cases delivered on one SQL-first foundation"
+                },
+                {
+                  "value": "3x",
+                  "label": "Less architecture overhead versus API-plus-middleware pattern"
+                }
+              ],
+              "context": [
+                "Query real-time and historical telemetry directly with SQL from one prepared data layer.",
+                "Build supervisor-focused dashboards without duplicating fleet platform UI or backend logic.",
+                "Scale to more warehouses, rooms, and users using existing org and permission boundaries.",
+                "Combine operational monitoring and investigation workflows in one application experience.",
+                "Shift effort from infrastructure maintenance to KPI design, alerts, and decision support."
+              ]
             }
           ]
         },
         {
-          "title": "Purpose-Built Decision Apps",
+          "title": "Sensoriqua: custom warehouse monitoring app",
           "cards": [
             {
-              "title": "Sensoriqua",
-              "text": "Sensor intelligence, condition monitoring, cold chain visibility, exception detection. Outcomes: reduce condition risk and protect sensitive assets."
+              "title": "1) Problem",
+              "text": "Warehouse supervisors needed temperature and humidity control across 12 zones, trend investigation, and exception visibility, but fleet UI patterns were optimized for dispatch workflows."
             },
             {
-              "title": "Trips Intelli",
-              "text": "Route intelligence, delivery optimization, trip profitability. Outcomes: improve route performance and margins."
+              "title": "2) Custom solution",
+              "text": "Sensoriqua was built as an independent operational app using IoT Query SQL access to temperature, humidity, door state, and equipment runtime data, with customer-specific views and threshold alerts."
+            },
+            {
+              "title": "3) Operational effect",
+              "text": "Teams got real-time status, historical investigation, and scalable multi-warehouse monitoring without building local storage pipelines or API pagination logic."
             }
           ]
         },
         {
-          "title": "Featured App Highlights",
+          "title": "Trips Intelli: custom trip intelligence app",
+          "cards": [
+            {
+              "title": "1) Problem",
+              "text": "Raw GPS points did not answer operational questions about trip quality, route adherence, overtime, suspicious behavior, and sensor integrity."
+            },
+            {
+              "title": "2) Custom solution",
+              "text": "Trips Intelli converts telemetry into a trips workspace with KPI strip, trip table, route map, status timeline, shift control, anomaly scoring, route-corridor deviation, and XLSX export."
+            },
+            {
+              "title": "3) Operational effect",
+              "text": "Dispatch, fleet managers, finance, and leadership get one evidence base for daily control, incident review, compliance checks, and management reporting."
+            }
+          ]
+        },
+        {
+          "title": "App Connect: embedded access inside navixy",
+          "description": "Navixy App Connect is an authentication middleware that securely bridges Navixy sessions and third-party apps, so custom tools open with existing credentials and inherited platform permissions.",
           "kpiStrip": [
-            "Condition Intelligence",
-            "Cold Chain Monitoring",
-            "Trip Profitability",
-            "Route Intelligence",
-            "Operational Exception Management"
-          ]
-        },
-        {
-          "title": "Where Decision Apps Add Value",
+            "Single sign-on across connected apps",
+            "Session key to secure JWT token exchange",
+            "Role-based access inherited from Navixy",
+            "Automatic permission sync across applications",
+            "No separate passwords for custom tools",
+            "Secure data access through Navixy auth layer",
+            "Centralized app governance for admins",
+            "Consistent security policy across ecosystem",
+            "Faster developer integration via standard contract",
+            "Native-like embedded experience in Navixy"
+          ],
           "cards": [
             {
-              "title": "Sensor-Driven Operations",
-              "text": "Environmental sensors, cold chain assets, equipment condition."
+              "title": "Who gets value",
+              "text": "Developers ship integrations faster, admins control app access centrally, and end users open approved tools without extra logins."
             },
             {
-              "title": "Trip & Route Intelligence",
-              "text": "Route performance, delivery optimization, margin per trip."
+              "title": "How it works in practice",
+              "text": "An external app requests App Connect auth, Navixy session is exchanged into JWT, and access is granted according to current Navixy permissions."
             },
             {
-              "title": "Custom Operational Workflows",
-              "text": "Exception workflows, industry-specific intelligence apps, custom use cases."
+              "title": "Reference pattern",
+              "text": "Dashboard Studio demonstrates the same model: automatic session handoff, permission-aware data access, and continuous cross-app session continuity."
             }
           ]
         },
         {
-          "title": "Why Decision Apps vs Dashboards",
+          "title": "Why is IoT Query database preferable compared to API?",
+          "columns": 2,
           "cards": [
             {
-              "title": "Dashboards",
-              "text": "Visibility, monitoring, analysis."
+              "title": "API access model",
+              "text": "Pagination and rate limits complicate long historical analysis.||Teams must build middleware, sync jobs, and local storage before analytics starts.||Tenant isolation and permission mapping often require custom backend logic.||Operational changes become integration projects instead of dashboard updates."
             },
             {
-              "title": "Decision Apps",
-              "text": "Operational workflows, guided decisions, action support."
+              "title": "SQL access with IoT Query",
+              "text": "One SQL-ready layer serves both real-time monitoring and historical investigation.||PostgreSQL-compatible queries remove the need for custom storage and aggregation services.||Existing org boundaries and filters support multi-tenant and branch-level views.||Teams focus on alerts, KPIs, and workflows instead of integration maintenance."
             }
           ]
         },
         {
-          "title": "Practical Use Cases",
-          "cards": [
-            {
-              "title": "Sensor Intelligence",
-              "text": "Condition-based decisions at scale."
-            },
-            {
-              "title": "Cold Chain Intelligence",
-              "text": "Reduce compliance and product risk."
-            },
-            {
-              "title": "Route & Trip Optimization",
-              "text": "Improve profitability and delivery performance."
-            }
-          ]
-        },
-        {
-          "title": "Continue Exploring",
+          "title": "Continue exploring",
           "relatedLinks": [
             {
               "label": "Dashboard Studio",
@@ -1788,8 +2179,116 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "slug": "/pricing",
+      "title": "Pricing & economics",
+      "heroHeadline": "Fleet analytics that pays for itself",
+      "heroIntroLine": "Improve ROI",
+      "heroRotatingPhrases": [
+        "before you add another system",
+        "with zero analytics overhead",
+        "through operating payback"
       ],
-      "subtitle": "Deploy purpose-built operational apps that turn insights into repeatable actions across teams."
+      "subtitle": "Reduce fuel waste, downtime, claims, and compliance exposure with decision intelligence designed to return more value than it costs.",
+      "ctas": [
+        {
+          "label": "Get a price",
+          "href": "#cta"
+        },
+        {
+          "label": "Book a demo",
+          "href": "#cta"
+        }
+      ],
+      "proof": [
+        "Built to pay back quickly",
+        "Designed for measurable ROI",
+        "Zero-TCO economics"
+      ],
+      "sections": [
+        {
+          "title": "Value outcomes",
+          "description": "How pricing translates into operational value for fleet teams.",
+          "columns": 3,
+          "cards": [
+            {
+              "title": "Reduce cost-to-serve",
+              "text": "Turn telematics into lower fuel, labor, and asset cost pressure across daily operations."
+            },
+            {
+              "title": "Improve return on fleet assets",
+              "text": "Increase output from assets already in service before adding more vehicles or equipment."
+            },
+            {
+              "title": "Eliminate analytics overhead",
+              "text": "Get decision intelligence without running a traditional analytics infrastructure program."
+            }
+          ]
+        },
+        {
+          "title": "",
+          "outcomeRows": [
+            {
+              "title": "Economics you can defend",
+              "subtitle": "The decision lens: compare analytics cost against preventable operating loss.",
+              "stats": [
+                {
+                  "value": "Lower",
+                  "label": "avoidable operating waste"
+                },
+                {
+                  "value": "Higher",
+                  "label": "productive fleet output"
+                },
+                {
+                  "value": "Faster",
+                  "label": "decision-to-action cycle"
+                }
+              ],
+              "context": [
+                "Idle assets reduce utilization and margin if left unmanaged.",
+                "Route and service deviations increase cost per delivery.",
+                "Unsafe behavior amplifies claims and insurance pressure.",
+                "Unplanned downtime reduces revenue-producing uptime.",
+                "Manual compliance processes create expensive risk exposure."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "What helps justify investment quickly",
+          "description": "Many fleets find the program justified when even one critical operating issue is improved.",
+          "columns": 3,
+          "cards": [
+            {
+              "title": "Fuel waste reduction",
+              "text": "Lower preventable spend from inefficient driving and idle patterns."
+            },
+            {
+              "title": "Avoidable breakdown prevention",
+              "text": "Reduce disruption and cost from preventable service failures."
+            },
+            {
+              "title": "Claim prevention",
+              "text": "Lower adverse incident exposure before legal and insurance cost escalates."
+            },
+            {
+              "title": "Utilization lift",
+              "text": "Increase productive asset time without expanding fleet size."
+            },
+            {
+              "title": "Compliance exception reduction",
+              "text": "Lower audit and penalty risk through better operating discipline."
+            },
+            {
+              "title": "Faster cross-team decisions",
+              "text": "Reduce manual overhead and move from reporting to action sooner."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1,3 +1,10 @@
+services:
+  - type: static_site
+    name: iotqueryws
+    runtime: static
+    buildCommand: npm ci && npm run build
+    publishPath: out
+    pullRequestPreviewsEnabled: true
 # Render Blueprint — deploy as Static Site (recommended for this app)
 # https://docs.render.com/static-sites
 services:

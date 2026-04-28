@@ -21,7 +21,7 @@ const navIcons: Record<string, React.ComponentType<{ size?: number; style?: Reac
   Industries: Factory,
   Roles: ShieldUser,
   Tools: Wrench,
-  Price: CreditCard
+  Pricing: CreditCard
 };
 
 const submenuIcons: Record<string, React.ComponentType<{ size?: number; style?: React.CSSProperties }>> = {
@@ -30,18 +30,19 @@ const submenuIcons: Record<string, React.ComponentType<{ size?: number; style?: 
   "Driver Safety": ShieldUser,
   Maintenance: Wrench,
   Compliance: ShieldUser,
-  Transport: Factory,
+  "Transport & Logistics": Factory,
   Leasing: Briefcase,
   "Heavy Machinery": Wrench,
-  "Cold Chain": Factory,
   "Fleet Manager": ShieldUser,
-  COO: Briefcase,
+  "Data Analyst": Briefcase,
   "Safety Manager": ShieldUser,
   Finance: CreditCard,
   "Dashboard Studio": Wrench,
   "3rd Party BI": Factory,
   "Custom Apps": Cog
 };
+
+const nonClickableSectionHrefs = new Set(["/solutions", "/industries", "/roles", "/tools"]);
 
 export default function SiteNavbar() {
   const [open, setOpen] = useState(false);
@@ -85,15 +86,26 @@ export default function SiteNavbar() {
             >
               {(() => {
                 const Icon = navIcons[link.label] ?? ChevronRight;
+                const disableTopLevelLink = nonClickableSectionHrefs.has(link.href);
                 return (
-              <Link
-                href={link.href}
-                className="px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 inline-flex items-center gap-2"
-                style={{ color: "rgba(224,234,255,0.7)" }}
-              >
-                <Icon size={14} style={{ color: "#00f0ff" }} />
-                {link.label}
-              </Link>
+                  disableTopLevelLink ? (
+                    <span
+                      className="px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 inline-flex items-center gap-2 cursor-default"
+                      style={{ color: "rgba(224,234,255,0.7)" }}
+                    >
+                      <Icon size={14} style={{ color: "#00f0ff" }} />
+                      {link.label}
+                    </span>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 inline-flex items-center gap-2"
+                      style={{ color: "rgba(224,234,255,0.7)" }}
+                    >
+                      <Icon size={14} style={{ color: "#00f0ff" }} />
+                      {link.label}
+                    </Link>
+                  )
                 );
               })()}
               {activeMenu === link.label && link.children?.length ? (
@@ -160,16 +172,27 @@ export default function SiteNavbar() {
             <div key={link.label} className="rounded-xl border p-2" style={{ borderColor: "rgba(100,150,255,0.2)" }}>
               {(() => {
                 const Icon = navIcons[link.label] ?? ChevronRight;
+                const disableTopLevelLink = nonClickableSectionHrefs.has(link.href);
                 return (
-              <Link
-                href={link.href}
-                className="px-2 py-2 rounded-xl text-sm font-medium flex items-center gap-2"
-                style={{ color: "rgba(224,234,255,0.9)" }}
-                onClick={() => setOpen(false)}
-              >
-                <Icon size={14} style={{ color: "#00f0ff" }} />
-                {link.label}
-              </Link>
+                  disableTopLevelLink ? (
+                    <span
+                      className="px-2 py-2 rounded-xl text-sm font-medium flex items-center gap-2"
+                      style={{ color: "rgba(224,234,255,0.9)" }}
+                    >
+                      <Icon size={14} style={{ color: "#00f0ff" }} />
+                      {link.label}
+                    </span>
+                  ) : (
+                    <Link
+                      href={link.href}
+                      className="px-2 py-2 rounded-xl text-sm font-medium flex items-center gap-2"
+                      style={{ color: "rgba(224,234,255,0.9)" }}
+                      onClick={() => setOpen(false)}
+                    >
+                      <Icon size={14} style={{ color: "#00f0ff" }} />
+                      {link.label}
+                    </Link>
+                  )
                 );
               })()}
               {link.children?.length ? (

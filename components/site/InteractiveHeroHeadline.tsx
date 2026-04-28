@@ -7,6 +7,32 @@ type Props = {
   phrases: string[];
 };
 
+function toSentenceCase(value: string): string {
+  const trimmed = value.trim();
+  if (!trimmed) return "";
+  const sentence = trimmed.charAt(0).toUpperCase() + trimmed.slice(1).toLowerCase();
+  return sentence
+    .replace(/\biot query\b/gi, "IoT Query")
+    .replace(/\bnavixy\b/gi, "Navixy")
+    .replace(/\bpowerbi\b/gi, "PowerBI")
+    .replace(/\broi\b/gi, "ROI")
+    .replace(/\bbi\b/g, "BI");
+}
+
+function splitForTwoWordSecondLine(value: string): { lineOnePart: string; lineTwoPart: string } {
+  const words = value.trim().split(/\s+/).filter(Boolean);
+  if (words.length <= 2) {
+    return {
+      lineOnePart: "",
+      lineTwoPart: words.join(" "),
+    };
+  }
+  return {
+    lineOnePart: words.slice(0, -2).join(" "),
+    lineTwoPart: words.slice(-2).join(" "),
+  };
+}
+
 export default function InteractiveHeroHeadline({ intro, phrases }: Props) {
   const [index, setIndex] = useState(0);
   const [renderedText, setRenderedText] = useState(phrases[0] ?? "");
@@ -63,32 +89,33 @@ export default function InteractiveHeroHeadline({ intro, phrases }: Props) {
     return () => cancelAnimationFrame(rafId);
   }, [index, phrases, scrambleChars]);
 
+  const currentTarget = phrases[index] ?? "";
+  const intoPrefixMatch = currentTarget.match(/^into\s+/i);
+  const useIntoTwoLinePattern = Boolean(intoPrefixMatch);
+  const intoRemainder = useIntoTwoLinePattern
+    ? renderedText.slice(intoPrefixMatch?.[0].length ?? 0).trimStart()
+    : renderedText;
+  const normalizedIntro = toSentenceCase(intro);
+  const normalizedRemainder = intoRemainder.toLowerCase();
+  const normalizedRenderedText = toSentenceCase(renderedText).toLowerCase();
+  const splitLine = splitForTwoWordSecondLine(useIntoTwoLinePattern ? normalizedRemainder : normalizedRenderedText);
+  const firstLineText = useIntoTwoLinePattern
+    ? [normalizedIntro, "into", splitLine.lineOnePart].filter(Boolean).join(" ")
+    : [normalizedIntro, splitLine.lineOnePart].filter(Boolean).join(" ");
+  const secondLineText = splitLine.lineTwoPart || "\u00A0";
+
   return (
     <h1
       className="font-bold leading-[1.05] tracking-[-0.06em] max-w-5xl"
       style={{ fontSize: "clamp(1.95rem, 5.2vw, 3.9rem)", color: "#e0eaff" }}
     >
-      <span className="whitespace-nowrap inline-block">{intro}</span>
+      <span className="whitespace-nowrap inline-block">{firstLineText}</span>
       <br />
       <span
-        className="inline-block min-h-[1.2em] neon-text"
+        className="inline-block min-h-[1.2em] neon-text whitespace-nowrap"
         style={{ fontFamily: "var(--font-jetbrains-mono)", letterSpacing: "-0.03em" }}
       >
-        {(() => {
-          const currentTarget = phrases[index] ?? "";
-          const breakAt = currentTarget.lastIndexOf(" ");
-          if (breakAt <= 0) return renderedText;
-
-          const lineOne = renderedText.slice(0, breakAt);
-          const lineTwo = renderedText.slice(breakAt + 1);
-
-          return (
-            <span className="inline-flex flex-col leading-[1.05]">
-              <span>{lineOne}</span>
-              <span>{lineTwo}</span>
-            </span>
-          );
-        })()}
+        {secondLineText}
       </span>
     </h1>
   );
